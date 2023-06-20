@@ -1,7 +1,63 @@
 html,
 body{
     margin: 0;
-    background-color: gray;
+    background-color: white;
     color:#333;
-    padding: 20px;
+    padding: 0;
+    height: 100vh;
+
 }
+.container{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+/* ======================================================= */
+.header{
+    background-color: #FDFEFD;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  margin: 0;
+    position: relative;
+}
+
+.img img {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-img {
+    left: 0;
+}
+
+.right-img {
+    width: 25px;
+    top: 15px;
+    right: 0;
+}
+
+.menu-main-navigation-container .menu {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr  2fr;
+   text-align: center;
+    align-items: center;
+
+}
+
+.menu li, a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+}
+
+.menu li:nth-child(4){
+   text-align: right;
+   margin-right: 30px;
+ 
+}
+
