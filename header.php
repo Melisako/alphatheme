@@ -11,8 +11,8 @@
 <section class="header">
 <div class="container">
 <div class="img">
-<img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>" alt="Foto 1" class="left-img">
- <img src="<?php echo get_stylesheet_directory_uri() . '/img/vector.svg'; ?>" alt="Foto 2" class="right-img">
+<img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>"  class="left">
+ <img src="<?php echo get_stylesheet_directory_uri() . '/img/vector.svg'; ?>"  class="right">
 </div>
     <div class="navmenu">
  <?php   wp_nav_menu(array('theme_location' => 'primary')) ;?>

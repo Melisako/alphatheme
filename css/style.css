@@ -30,11 +30,11 @@ body{
 
 }
 
-.left-img {
+.left{
     left: 0;
 }
 
-.right-img {
+.right{
     width: 25px;
     top: 15px;
     right: 0;
