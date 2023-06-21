@@ -1,14 +1,27 @@
 <?php get_header(); ?>
 
-<?php if( have_posts()) :
-while(have_posts()) : the_post(); ?>
-   <h3><?php the_title(); ?> </h3>
-   <small>Posten on: <?php the_time(); ?>, in <?php the_category(); ?> </small>
-    <p> <?php the_content(); ?> </p>
-    <hr>
-  <?php endwhile;
-endif;
-?>
 
+<?php if(have_rows('faq')) : ?>
+    <?php while (have_rows('faq')) : the_row(); ?>
+
+<?php if(get_row_layout() == 'faq_section'): 
+    $pytjet = get_sub_field('faq');
+?>
+<div class="ask">
+    <ul class="list">
+<?php foreach($pytjet as $pytja){
+    echo "<li>" . $pytja['Pyetjet'] . "<br>" . "</li>"; 
+     echo "<li>" . $pytja['pergjigjet'] . "<br>" . "</li>";
+}
+?>
+</ul>
+</div>
+<?php endif; ?>
+<?php endwhile; ?>
+
+<?php endif; ?>
+    
+
+    
 <?php get_footer(); ?>
 
