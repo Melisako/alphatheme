@@ -13,4 +13,10 @@ function alpha_theme_setup(){
 
 }
 add_action( 'init', 'alpha_theme_setup');
+
+add_action('after_setup_theme', 'alpha_theme_setup');
+
+add_theme_support( 'custom-background' );
+add_theme_support( 'custom-header' );
+add_theme_support('post-thumbnails');
 ?>
