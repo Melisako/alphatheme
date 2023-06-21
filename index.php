@@ -1,3 +1,6 @@
+
+<?php get_header();?>
+
 <?php if (have_rows('content')) : ?>
     <?php while (have_rows('content')) : the_row(); ?>
         <?php if (get_row_layout() == 'columns_section'): 
@@ -54,7 +57,8 @@
                
             }
         </style>
- <h2>PROS</h2>
+ <h2>PROS <i class="fas fa-thumbs-up" style="padding-left: 10px;"></i></h2>
+
         <div class="columns-section">
        
             <?php foreach($columns as $column): ?>
