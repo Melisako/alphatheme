@@ -90,7 +90,6 @@ acf_add_local_field_group(array(
                 ),
             ),
             // end
-            
             'button_label' => 'Add Module',
             'min' => '',
             'max' => '',
