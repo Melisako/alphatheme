@@ -16,7 +16,6 @@
 </div>
     <div class="navmenu">
  <?php   wp_nav_menu(array('theme_location' => 'primary')) ;?>
-
 <ul>
 </div>
 </div>

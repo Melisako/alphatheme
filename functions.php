@@ -13,4 +13,8 @@ function alpha_theme_setup(){
 
 }
 add_action( 'init', 'alpha_theme_setup');
+
+if (file_exists(get_stylesheet_directory() . '/acf-export/acf-data.php')) {
+    include_once(get_stylesheet_directory() . '/acf-export/acf-data.php');
+}
 ?>
