@@ -2,6 +2,7 @@
 
 
 
+
 <h1>Pros & Cons Module</h1>
 
 <div class="container">
@@ -129,4 +130,4 @@
 </style>
 
 <!-- Include the Font Awesome library -->
-<script src="your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
