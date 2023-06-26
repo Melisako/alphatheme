@@ -88,20 +88,16 @@ acf_add_local_field_group(array(
                     'min' => '',
                     'max' => '',
                 ),
-            ),
-            // end
-            // Almedin Agushi start layouts
-            'layouts' => array(
-				'layout_64945adf14099' => array(
-					'key' => 'layout_64945adf14099',
+                'layout_649944239c9b0' => array(
+					'key' => 'layout_649944239c9b0',
 					'name' => 'carousel',
 					'label' => 'Carousel',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
-							'key' => 'field_64945b107adc4',
-							'label' => 'Image',
-							'name' => 'image',
+							'key' => 'field_64994434bd67e',
+							'label' => 'image_gallery',
+							'name' => 'image_gallery',
 							'type' => 'repeater',
 							'instructions' => '',
 							'required' => 0,
@@ -118,9 +114,9 @@ acf_add_local_field_group(array(
 							'button_label' => '',
 							'sub_fields' => array(
 								array(
-									'key' => 'field_64945b317adc5',
-									'label' => 'Foto',
-									'name' => 'foto',
+									'key' => 'field_6499444cbd67f',
+									'label' => 'gallerycarousel',
+									'name' => 'gallerycarousel',
 									'type' => 'gallery',
 									'instructions' => '',
 									'required' => 0,
@@ -130,7 +126,7 @@ acf_add_local_field_group(array(
 										'class' => '',
 										'id' => '',
 									),
-									'return_format' => 'id',
+									'return_format' => 'url',
 									'preview_size' => 'medium',
 									'insert' => 'append',
 									'library' => 'all',
@@ -150,8 +146,10 @@ acf_add_local_field_group(array(
 					'min' => '',
 					'max' => '',
 				),
-			),
-            //end
+                //end
+            ),
+        
+            
             'button_label' => 'Add Module',
             'min' => '',
             'max' => '',
