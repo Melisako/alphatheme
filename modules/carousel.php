@@ -30,7 +30,7 @@
 }
 
 .gallery h1 {
-padding: 0  50px  50px 0;
+padding: 0  30px  30px 10px;
 color: #000;
 font-size: 32px;
 font-family: 'Inter', sans-serif;
@@ -53,73 +53,74 @@ line-height: 27px;
 
 .gallerycarousel1 img {
   width: 100%;
-  height: auto;
+  height: 165px;
+  object-fit: cover;
   border-radius: 8px;
 
 }
 
-.slick-prev,
-.slick-next {
-  position: absolute;
-  top: 140%;
-  transform: translateY(-50%);
-  background-color: #000;
-  color: #fff;
-  font-size: 18px;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  z-index: 1;
-}
+    .slick-prev,
+    .slick-next {
+    position: absolute;
+    top: 140%;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    }
 
-.slick-prev {
-  left: 45%;
-  border-radius: 50%;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-}
+    .slick-prev {
+    left: 45%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    }
 
-.slick-prev:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-right: 10px solid #000; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-40%, -50%);
-}
-.slick-next {
-    right: 45%;
-  border-radius: 50%;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-}
+    .slick-prev:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 10px solid #000; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    }
+    .slick-next {
+        right: 45%;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    }
 
-.slick-next:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 10px solid #000; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-60%, -50%);
-}
+    .slick-next:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 10px solid #000; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    }
 
       
       </style>
@@ -135,7 +136,7 @@ $images = array();
 if (have_rows('image_gallery')):
     while (have_rows('image_gallery')) : the_row();
         $image = get_sub_field('gallerycarousel');
-        $images[] = $image; // Ruajmë vetëm URL-në e imazhit në vargun e imazheve
+        $images[] = $image;
     endwhile;
 endif;
 ?>
