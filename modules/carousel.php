@@ -56,7 +56,10 @@ line-height: 27px;
   height: 165px;
   object-fit: cover;
   border-radius: 8px;
-
+}
+.gallerycarousel1 img:hover{
+    cursor: pointer;
+    opacity: 0.5;
 }
 
     .slick-prev,
