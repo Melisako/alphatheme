@@ -1,7 +1,6 @@
 
 
 
-
 <h1>Pros & Cons Module</h1>
 
 <div class="container">
@@ -28,34 +27,8 @@
     <?php endwhile; ?>
     <?php endif; ?>
   </div>
-
-  <div class="cons">
-    <h2>CONS</h2>
-
-    <?php if (have_rows('cons')) : ?>
-    <?php while (have_rows('cons')) : the_row(); ?>
-    <?php if (get_row_layout() == 'cons_module'):
-            $columns = get_sub_field('column');
-        ?>
-
-    <div class="columns-section">
-      <?php foreach($columns as $column): ?>
-      <div class="column">
-       
-        <p><?php echo $column['content']; ?></p>
-        <i class="fas fa-thumbs-down"></i>
-      </div>
-      <?php endforeach; ?>
-    </div>
-
-    <?php endif; ?>
-    <?php endwhile; ?>
-    <?php endif; ?>
-  </div>
-</div>
-
-<style>
-      .fas.fa-thumbs-up {
+  <style>
+ .fas.fa-thumbs-up {
     color: green;
     font-size: 24px;
     margin-right: 5px;
@@ -126,7 +99,34 @@
     font-weight: bold;
     font-size: 20px;
   }
-</style>
+    </style>
+
+  <div class="cons">
+    <h2>CONS</h2>
+
+    <?php if (have_rows('cons')) : ?>
+    <?php while (have_rows('cons')) : the_row(); ?>
+    <?php if (get_row_layout() == 'cons_module'):
+            $columns = get_sub_field('column');
+        ?>
+
+    <div class="columns-section">
+      <?php foreach($columns as $column): ?>
+      <div class="column">
+       
+        <p><?php echo $column['content']; ?></p>
+        <i class="fas fa-thumbs-down"></i>
+      </div>
+      <?php endforeach; ?>
+    </div>
+
+    <?php endif; ?>
+    <?php endwhile; ?>
+    <?php endif; ?>
+  </div>
+</div>
+
+
 
 <!-- Include the Font Awesome library -->
 <script src="your-font-awesome-kit.js" crossorigin="anonymous"></script>
