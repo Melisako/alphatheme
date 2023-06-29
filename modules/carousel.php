@@ -7,7 +7,7 @@
 />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-    <title>Document</title>
+    <title>Carousel Gallery</title>
 
     <style>
         
@@ -131,7 +131,7 @@ line-height: 27px;
       
       </head>
       <body>
-
+    
 
  
       <?php
@@ -143,7 +143,6 @@ if (have_rows('image_gallery')):
     endwhile;
 endif;
 ?>
-
 <div class="gallery">
     <div class="container">
         <h1>Gallery Carousel</h1>
