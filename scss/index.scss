@@ -1,0 +1,24 @@
+@import 'modules/faq-nav';
+@import 'modules/footer.scss';
+// @import 'modules/prova.scss';
+@import 'modules/bussines.scss';
+
+
+
+
+html,
+body{
+    margin: 0;
+    background-color: white;
+    color:#333;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+  
+}
+//==============================================================================================
+
