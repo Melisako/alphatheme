@@ -1,27 +1,26 @@
-
 <style>
-.customer .container{
-    width:50%;
-    margin: 0 auto;
-}
-.customer-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.customer-table th,
-.customer-table td {
-    padding: 8px;
-    border: 1px solid #ccc;
-}
-
-.customer-table th {
-    background-color: #f2f2f2;
-  
-}
-
-
+    .customer {
+        margin-bottom: 85px; 
+    }
+    .customer .container {
+        width: 100%;
+        max-width: 1100px; 
+        margin: 50px auto; 
+    }
+    .customer-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px; 
+    }
+    .customer-table th,
+    .customer-table td {
+        padding: 10px; 
+     
+    }
+   
 </style>
+
+
 
 <?php
 if (have_rows('personal_information')) :
@@ -35,28 +34,22 @@ if (have_rows('personal_information')) :
 ?>
         <div class="customer">
             <div class="container">
-            <table class="customer-table">
-                <tr>
-                    <th>First Name</th>
-                    <td><?php echo $first_name; ?></td>
-                </tr>
-                <tr>
-                    <th>Last Name</th>
-                    <td><?php echo $last_name; ?></td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td><?php echo $email; ?></td>
-                </tr>
-                <tr>
-                    <th>Date of Birth</th>
-                    <td><?php echo $date_of_birth; ?></td>
-                </tr>
-                <tr>
-                    <th>Description</th>
-                    <td><?php echo $description; ?></td>
-                </tr>
-            </table>
+                <table class="customer-table">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td><?php echo $first_name; ?></td>
+                        <td><?php echo $last_name; ?></td>
+                        <td><?php echo $email; ?></td>
+                        <td><?php echo $date_of_birth; ?></td>
+                        <td><?php echo $description; ?></td>
+                    </tr>
+                </table>
             </div>
         </div>
 <?php
