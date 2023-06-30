@@ -1,27 +1,3 @@
-<style>
-    .customer {
-        margin-bottom: 85px; 
-    }
-    .customer .container {
-        width: 100%;
-        max-width: 1100px; 
-        margin: 50px auto; 
-    }
-    .customer-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px; 
-    }
-    .customer-table th,
-    .customer-table td {
-        padding: 10px; 
-     
-    }
-   
-</style>
-
-
-
 <?php
 if (have_rows('personal_information')) :
     while (have_rows('personal_information')) :
