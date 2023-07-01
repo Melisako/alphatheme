@@ -18,17 +18,19 @@ acf_add_local_field_group(array(
                 'id' => '',
             ),
             // prej qitu keni me shtu layouts (module)
+          
+
             'layouts' => array(
-                'layout_64937496af6bc' => array(
+				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
 					'name' => 'pro_section',
 					'label' => 'Pro Section',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
-							'key' => 'field_649374e374a1f',
-							'label' => 'Columns',
-							'name' => 'columns',
+							'key' => 'field_649fe33e2d926',
+							'label' => 'Columns (copy)',
+							'name' => 'columns_copy',
 							'type' => 'repeater',
 							'instructions' => '',
 							'required' => 0,
@@ -45,7 +47,7 @@ acf_add_local_field_group(array(
 							'button_label' => '',
 							'sub_fields' => array(
 								array(
-									'key' => 'field_6493750274a21',
+									'key' => 'field_649fe33f2d927',
 									'label' => 'Content',
 									'name' => 'content',
 									'type' => 'textarea',
