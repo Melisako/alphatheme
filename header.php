@@ -30,7 +30,7 @@
         </div>
     </div>
 </section>
-
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/header.css'; ?>">
 <!-- Rest of your code -->
 
 </body>
