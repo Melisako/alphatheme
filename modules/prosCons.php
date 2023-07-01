@@ -1,60 +1,60 @@
-
-
-
 <h1>Pros & Cons Module</h1>
+  <div class="container">
+    <table>
+      <tr>
+        <td>
+          <div class="pros">
+            <h2>PROS</h2>
 
-<div class="container">
-  <div class="pros">
-  <h2>PROS</h2>
+            <?php if (have_rows('module')) : ?>
+              <?php while (have_rows('module')) : the_row(); ?>
+                <?php if (get_row_layout() == 'pro_section') :
+                  $columns_copy = get_sub_field('columns_copy');
+                  if (is_array($columns_copy) || is_object($columns_copy)) {
+                ?>
 
-    <?php if (have_rows('module')) : ?>
-      <?php while (have_rows('module')) : the_row(); ?>
-        <?php if (get_row_layout() == 'pro_section') :
-          $columns_copy = get_sub_field('columns_copy');
-          if (is_array($columns_copy) || is_object($columns_copy)) {
-        ?>
+                  <div class="columns-section">
+                    <?php foreach ($columns_copy as $column) : ?>
+                      <div class="column">
+                        <p><?php echo $column['content']; ?></p>
+                        <i class="fas fa-thumbs-up"></i>
+                      </div>
+                    <?php endforeach; ?>
+                  </div>
 
-          <div class="columns-section">
-            <?php foreach ($columns_copy as $column) : ?>
-              <div class="column">
-                <p><?php echo $column['content']; ?></p>
-                <i class="fas fa-thumbs-up"></i>
-              </div>
-            <?php endforeach; ?>
+                <?php } endif; ?>
+              <?php endwhile; ?>
+            <?php endif; ?>
           </div>
+        </td>
 
-        <?php } endif; ?>
-      <?php endwhile; ?>
-    <?php endif; ?>
-  </div>
-</div>
+        <td>
+          <div class="cons">
+            <h2>CONS</h2>
 
+            <?php if (have_rows('module')) : ?>
+              <?php while (have_rows('module')) : the_row(); ?>
+                <?php if (get_row_layout() == 'cons_section') :
+                  $columns = get_sub_field('columns');
+                ?>
 
+                  <div class="columns-section">
+                    <?php foreach ($columns as $column) : ?>
+                      <div class="column">
+                        <p><?php echo $column['content']; ?></p>
+                        <i class="fas fa-thumbs-down"></i>
+                      </div>
+                    <?php endforeach; ?>
+                  </div>
 
-<div class="cons">
-    <h2>CONS</h2>
-
-    <?php if (have_rows('module')) : ?>
-      <?php while (have_rows('module')) : the_row(); ?>
-        <?php if (get_row_layout() == 'cons_section') :
-          $columns = get_sub_field('columns');
-        ?>
-
-          <div class="columns-section">
-            <?php foreach ($columns as $column) : ?>
-              <div class="column">
-                <p><?php echo $column['content']; ?></p>
-                <i class="fas fa-thumbs-down"></i>
-              </div>
-            <?php endforeach; ?>
+                <?php endif; ?>
+              <?php endwhile; ?>
+            <?php endif; ?>
           </div>
-
-        <?php endif; ?>
-      <?php endwhile; ?>
-    <?php endif; ?>
+        </td>
+      </tr>
+    </table>
   </div>
-</div>
-
 
 
 
