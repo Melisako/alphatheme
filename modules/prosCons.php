@@ -1,5 +1,6 @@
-<h1>Pros & Cons Module</h1>
+<h1>PROS & CONS </h1>
   <div class="container">
+  
     <table>
       <tr>
         <td>
@@ -55,7 +56,6 @@
       </tr>
     </table>
   </div>
-
 
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/prosCons.css'; ?>">

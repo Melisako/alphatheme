@@ -46,7 +46,7 @@ h1 {
 }
 
 .columns-section {
-  margin-left: 35px;
+
   display: flex;
   flex-direction: column;
 }
@@ -74,3 +74,4 @@ h2 {
   font-weight: bold;
   font-size: 20px;
 }
+

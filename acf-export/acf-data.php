@@ -18,17 +18,19 @@ acf_add_local_field_group(array(
                 'id' => '',
             ),
             // prej qitu keni me shtu layouts (module)
-            'layouts' => array(
-                'layout_64937496af6bc' => array(
+          
+
+        	'layouts' => array(
+				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
 					'name' => 'pro_section',
 					'label' => 'Pro Section',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
-							'key' => 'field_649374e374a1f',
-							'label' => 'Columns',
-							'name' => 'columns',
+							'key' => 'field_649fe33e2d926',
+							'label' => 'Columns (copy)',
+							'name' => 'columns_copy',
 							'type' => 'repeater',
 							'instructions' => '',
 							'required' => 0,
@@ -45,7 +47,7 @@ acf_add_local_field_group(array(
 							'button_label' => '',
 							'sub_fields' => array(
 								array(
-									'key' => 'field_6493750274a21',
+									'key' => 'field_649fe33f2d927',
 									'label' => 'Content',
 									'name' => 'content',
 									'type' => 'textarea',
@@ -69,6 +71,195 @@ acf_add_local_field_group(array(
 					'min' => '',
 					'max' => '',
 				),
+				'layout_649ff339d2758' => array(
+					'key' => 'layout_649ff339d2758',
+					'name' => 'cons_section',
+					'label' => 'Cons Section',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649ff35c3b8af',
+							'label' => 'columns',
+							'name' => 'columns',
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => '',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_649ff37c3b8b0',
+									'label' => 'content',
+									'name' => 'content',
+									'type' => 'textarea',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649ff338d2757' => array(
+					'key' => 'layout_649ff338d2757',
+					'name' => '',
+					'label' => '',
+					'display' => 'block',
+					'sub_fields' => array(
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649ff335d2756' => array(
+					'key' => 'layout_649ff335d2756',
+					'name' => '',
+					'label' => '',
+					'display' => 'block',
+					'sub_fields' => array(
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649ff332d2755' => array(
+					'key' => 'layout_649ff332d2755',
+					'name' => '',
+					'label' => '',
+					'display' => 'block',
+					'sub_fields' => array(
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649ff32dd2754' => array(
+					'key' => 'layout_649ff32dd2754',
+					'name' => '',
+					'label' => '',
+					'display' => 'block',
+					'sub_fields' => array(
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649ff329d2753' => array(
+					'key' => 'layout_649ff329d2753',
+					'name' => '',
+					'label' => '',
+					'display' => 'block',
+					'sub_fields' => array(
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_649fdfffd64a0' => array(
+					'key' => 'layout_649fdfffd64a0',
+					'name' => 'quickfacts',
+					'label' => 'quickFacts',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649fe023d64a1',
+							'label' => 'Columns',
+							'name' => 'columns',
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => 'Add quick fact',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_649fe03cd64a2',
+									'label' => 'Title',
+									'name' => 'title',
+									'type' => 'text',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'prepend' => '',
+									'append' => '',
+									'maxlength' => '',
+								),
+								array(
+									'key' => 'field_649fe044d64a3',
+									'label' => 'Content',
+									'name' => 'content',
+									'type' => 'textarea',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+								),
+								array(
+									'key' => 'field_649fe084d64a4',
+									'label' => 'Link',
+									'name' => 'link',
+									'type' => 'url',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
+
+
+
+                //L
                 'layout_64942cee77bea' => array(
                     'key' => 'layout_64942cee77bea',
                     'name' => 'faq',
