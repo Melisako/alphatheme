@@ -1,3 +1,4 @@
+
 <div class="wrapper">
     <div class="content">
       <!-- Your page content here -->
@@ -7,6 +8,7 @@
       <?php wp_nav_menu(array('theme_location' => 'secondary'));?>
     </footer>
   </div>
+
 </body>
 <?php wp_footer(); ?>
 
