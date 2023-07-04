@@ -28,18 +28,18 @@ $gallery-prev-next-size: 30px;
         line-height: 27px;
     }
     .gallerycarousel {
-        display: flex;
-        width: $gallery-carousel-width;
-        height: $gallery-carousel-height;
-        justify-content: center;
-        align-items: flex-start;
-        flex-shrink: 0;
+        // display: flex;
+        // width: $gallery-carousel-width;
+        // height: $gallery-carousel-height;
+        // justify-content: center;
+        // align-items: flex-start;
+        // flex-shrink: 0;
 
         .gallerycarousel1 {
             margin: $gallery-carousel-margin;
 
             img {
-                width: 100%;
+                width: 100% ;
                 height: $gallery-carousel-image-height;
                 object-fit: cover;
                 border-radius: $gallery-carousel-image-border-radius;
