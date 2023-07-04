@@ -7,8 +7,7 @@
           <div class="pros">
             <h2>PROS</h2>
 
-            <?php if (have_rows('module')) : ?>
-              <?php while (have_rows('module')) : the_row(); ?>
+      
                 <?php if (get_row_layout() == 'pro_cons') :
                   $columns_copy = get_sub_field('columns_copy');
                   if (is_array($columns_copy) || is_object($columns_copy)) {
@@ -24,8 +23,8 @@
                   </div>
 
                 <?php } endif; ?>
-              <?php endwhile; ?>
-            <?php endif; ?>
+            
+           
           </div>
         </td>
 
