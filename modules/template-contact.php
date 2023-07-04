@@ -11,6 +11,7 @@ if (have_posts()) {
         the_content();
     }
 }
+
 ?>
 <div class="contact-container">
   <h1>Contact'Us</h1>
@@ -31,7 +32,7 @@ if (have_posts()) {
         <input type="submit" value="Submit">
     </form>
 </div>
-
+<?php get_footer();?>
 <style>
 .contact-container {
   max-width: 600px;
