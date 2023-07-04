@@ -20,11 +20,11 @@ acf_add_local_field_group(array(
             // prej qitu keni me shtu layouts (module)
           
 
-        	'layouts' => array(
+			'layouts' => array(
 				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
-					'name' => 'pro_section',
-					'label' => 'Pro Section',
+					'name' => 'pro_cons',
+					'label' => 'Pro Cons',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
@@ -67,20 +67,10 @@ acf_add_local_field_group(array(
 								),
 							),
 						),
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649ff339d2758' => array(
-					'key' => 'layout_649ff339d2758',
-					'name' => 'cons_section',
-					'label' => 'Cons Section',
-					'display' => 'block',
-					'sub_fields' => array(
 						array(
-							'key' => 'field_649ff35c3b8af',
-							'label' => 'columns',
-							'name' => 'columns',
+							'key' => 'field_64a334cf4368f',
+							'label' => 'Columns cons',
+							'name' => 'columns_cons',
 							'type' => 'repeater',
 							'instructions' => '',
 							'required' => 0,
@@ -97,9 +87,9 @@ acf_add_local_field_group(array(
 							'button_label' => '',
 							'sub_fields' => array(
 								array(
-									'key' => 'field_649ff37c3b8b0',
-									'label' => 'content',
-									'name' => 'content',
+									'key' => 'field_64a334cf43690',
+									'label' => 'Contenti',
+									'name' => 'contenti',
 									'type' => 'textarea',
 									'instructions' => '',
 									'required' => 0,
@@ -121,66 +111,16 @@ acf_add_local_field_group(array(
 					'min' => '',
 					'max' => '',
 				),
-				'layout_649ff338d2757' => array(
-					'key' => 'layout_649ff338d2757',
-					'name' => '',
-					'label' => '',
-					'display' => 'block',
-					'sub_fields' => array(
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649ff335d2756' => array(
-					'key' => 'layout_649ff335d2756',
-					'name' => '',
-					'label' => '',
-					'display' => 'block',
-					'sub_fields' => array(
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649ff332d2755' => array(
-					'key' => 'layout_649ff332d2755',
-					'name' => '',
-					'label' => '',
-					'display' => 'block',
-					'sub_fields' => array(
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649ff32dd2754' => array(
-					'key' => 'layout_649ff32dd2754',
-					'name' => '',
-					'label' => '',
-					'display' => 'block',
-					'sub_fields' => array(
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649ff329d2753' => array(
-					'key' => 'layout_649ff329d2753',
-					'name' => '',
-					'label' => '',
-					'display' => 'block',
-					'sub_fields' => array(
-					),
-					'min' => '',
-					'max' => '',
-				),
 				'layout_649fdfffd64a0' => array(
 					'key' => 'layout_649fdfffd64a0',
-					'name' => 'quickfacts',
-					'label' => 'quickFacts',
+					'name' => 'quick_facts',
+					'label' => 'Quick Facts',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
 							'key' => 'field_649fe023d64a1',
-							'label' => 'Columns',
-							'name' => 'columns',
+							'label' => 'Colum',
+							'name' => 'colum',
 							'type' => 'repeater',
 							'instructions' => '',
 							'required' => 0,
@@ -250,14 +190,36 @@ acf_add_local_field_group(array(
 									'default_value' => '',
 									'placeholder' => '',
 								),
+								array(
+									'key' => 'field_64a09cb4df721',
+									'label' => 'image future',
+									'name' => 'image_future',
+									'type' => 'image',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'return_format' => 'array',
+									'preview_size' => 'medium',
+									'library' => 'all',
+									'min_width' => '',
+									'min_height' => '',
+									'min_size' => '',
+									'max_width' => '',
+									'max_height' => '',
+									'max_size' => '',
+									'mime_types' => '',
+								),
 							),
 						),
 					),
 					'min' => '',
 					'max' => '',
 				),
-
-
 
                 //L
                 'layout_64942cee77bea' => array(
