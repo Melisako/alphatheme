@@ -32,8 +32,7 @@
           <div class="cons">
             <h2>CONS</h2>
 
-            <?php if (have_rows('module')) : ?>
-              <?php while (have_rows('module')) : the_row(); ?>
+  
                 <?php if (get_row_layout() == 'pro_cons') :
                   $columns_cons = get_sub_field('columns_cons');
                 ?>
@@ -48,8 +47,8 @@
                   </div>
 
                 <?php endif; ?>
-              <?php endwhile; ?>
-            <?php endif; ?>
+          
+           
           </div>
         </td>
       </tr>
