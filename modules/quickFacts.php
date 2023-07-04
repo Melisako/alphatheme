@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 
-<div class="container">
+<div class="contain">
 
   <?php if (have_rows('module')) : ?>
     <?php while (have_rows('module')) : the_row(); ?>
@@ -14,7 +14,7 @@
 
       <div class="columns-section">
       <?php foreach ($colum as $column) : ?>
-          <div class="column">
+          <div class="colum">
             <p><?php echo $column['title']; ?></p>
             <p><?php echo $column['content']; ?></p>
             <p><?php echo $column['link']; ?></p>
