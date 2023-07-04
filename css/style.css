@@ -1,3 +1,4 @@
+
 .gallery {
   display: flex;
   justify-content: center;
@@ -122,3 +123,39 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+
+.columns-section {
+
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cons .column {
+  width: 500px;
+  height: 43px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #FF0000 0%, #FF0000 5px, rgba(255, 0, 0, 0.1) 5px, rgba(255, 0, 0, 0.1) 100%);
+}
+
+.pros .column {
+  width: 500px;
+  height: 43px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #008000 0%, #008000 5px, rgba(0, 128, 0, 0.1) 5px, rgba(0, 128, 0, 0.1) 100%);
+}
+
+h2 {
+  margin-left: 38px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
