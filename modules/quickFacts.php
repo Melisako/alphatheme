@@ -4,8 +4,7 @@
 
 <div class="container">
 
-  <?php if (have_rows('module')) : ?>
-    <?php while (have_rows('module')) : the_row(); ?>
+  
       <?php if (get_row_layout() == 'quick_facts') :
         $columns = get_sub_field('colum');
         if (is_array($colum) || is_object($colum)) {
@@ -23,8 +22,7 @@
       </div>
 
       <?php } endif; ?>
-    <?php endwhile; ?>
-  <?php endif; ?>
+ 
 
 </div>
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/quick.css'; ?>">
