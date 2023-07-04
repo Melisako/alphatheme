@@ -9,7 +9,7 @@
 
             <?php if (have_rows('module')) : ?>
               <?php while (have_rows('module')) : the_row(); ?>
-                <?php if (get_row_layout() == 'pro_section') :
+                <?php if (get_row_layout() == 'pro_cons') :
                   $columns_copy = get_sub_field('columns_copy');
                   if (is_array($columns_copy) || is_object($columns_copy)) {
                 ?>
@@ -35,14 +35,14 @@
 
             <?php if (have_rows('module')) : ?>
               <?php while (have_rows('module')) : the_row(); ?>
-                <?php if (get_row_layout() == 'cons_section') :
-                  $columns = get_sub_field('columns');
+                <?php if (get_row_layout() == 'pro_cons') :
+                  $columns_cons = get_sub_field('columns_cons');
                 ?>
 
                   <div class="columns-section">
-                    <?php foreach ($columns as $column) : ?>
+                    <?php foreach ($columns_cons as $column) : ?>
                       <div class="column">
-                        <p><?php echo $column['content']; ?></p>
+                        <p><?php echo $column['contenti']; ?></p>
                         <i class="fas fa-thumbs-down"></i>
                       </div>
                     <?php endforeach; ?>
