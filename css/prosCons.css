@@ -1,15 +1,17 @@
-$green: #008000;
-$red: #FF0000;
+:root {
+  --green: #008000;
+  --red: #FF0000;
+}
 
 .fas.fa-thumbs-up {
-  color: $green;
+  color: var(--green);
   font-size: 24px;
   margin-right: 5px;
   margin-left: 350px;
 }
 
 .fas.fa-thumbs-down {
-  color: $red;
+  color: var(--red);
   font-size: 24px;
   margin-right: 5px;
   margin-left: 350px;
@@ -36,15 +38,15 @@ h1 {
 .column {
   display: flex;
   align-items: center;
+}
 
-  p {
-    padding-left: 20px;
-    font-size: 16px;
-  }
+.column p {
+  padding-left: 20px;
+  font-size: 16px;
 }
 
 .columns-section {
-  margin-left: 35px;
+
   display: flex;
   flex-direction: column;
 }
@@ -54,7 +56,7 @@ h1 {
   height: 43px;
   margin-bottom: 10px;
   border-radius: 15px;
-  background: linear-gradient(to right, $red 0%, $red 5px, rgba(255, 0, 0, 0.1) 5px, rgba(255, 0, 0, 0.1) 100%);
+  background: linear-gradient(to right, var(--red) 0%, var(--red) 5px, rgba(255, 0, 0, 0.1) 5px, rgba(255, 0, 0, 0.1) 100%);
 }
 
 .pros .column {
@@ -62,7 +64,7 @@ h1 {
   height: 43px;
   margin-bottom: 10px;
   border-radius: 15px;
-  background: linear-gradient(to right, $green 0%, $green 5px, rgba(0, 128, 0, 0.1) 5px, rgba(0, 128, 0, 0.1) 100%);
+  background: linear-gradient(to right, var(--green) 0%, var(--green) 5px, rgba(0, 128, 0, 0.1) 5px, rgba(0, 128, 0, 0.1) 100%);
 }
 
 h2 {
@@ -72,3 +74,4 @@ h2 {
   font-weight: bold;
   font-size: 20px;
 }
+
