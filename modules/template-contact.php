@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: almedin
+Template Name: contact
 */
 
 get_header();
