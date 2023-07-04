@@ -19,6 +19,56 @@ acf_add_local_field_group(array(
             ),
             // prej qitu keni me shtu layouts (module)
             'layouts' => array(
+                'layout_64937496af6bc' => array(
+					'key' => 'layout_64937496af6bc',
+					'name' => 'pro_section',
+					'label' => 'Pro Section',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649374e374a1f',
+							'label' => 'Columns',
+							'name' => 'columns',
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => '',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_6493750274a21',
+									'label' => 'Content',
+									'name' => 'content',
+									'type' => 'textarea',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
                 'layout_64942cee77bea' => array(
                     'key' => 'layout_64942cee77bea',
                     'name' => 'faq',
@@ -88,7 +138,11 @@ acf_add_local_field_group(array(
                     'min' => '',
                     'max' => '',
                 ),
+				
+				
             ),
+
+
             // end
             'button_label' => 'Add Module',
             'min' => '',
@@ -101,7 +155,7 @@ acf_add_local_field_group(array(
                 'param' => 'post_type',
                 'operator' => '==',
                 'value' => 'page',
-            ),
+            ),    
         ),
     ),
     'menu_order' => 0,

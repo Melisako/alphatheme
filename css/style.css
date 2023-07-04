@@ -1,5 +1,269 @@
-html,
-body {
-  background-color: red;
+.header {
+  background-color: #FDFEFD;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: relative;
 }
 
+.img img {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  width: 25px;
+  top: 15px;
+  right: 0;
+}
+
+.menu-main-navigation-container .menu {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 2fr;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu li, a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: black;
+}
+
+.menu-main-navigation-container .menu li:nth-child(4) {
+  text-align: right;
+  margin-right: 25px;
+}
+
+.menu-main-navigation-container .menu li:last-child {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  width: 20px;
+}
+
+.faq {
+  background-color: #F8FAFC;
+  margin-top: 40px;
+  position: relative;
+  padding: 30px 0 40px 0;
+}
+
+.faq_section {
+  width: 900px;
+  margin: 0 auto;
+  background: #FDFEFD;
+  box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.09);
+  border-radius: 16px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.faq_section h1 {
+  padding: 5px;
+}
+
+.faq__questions__items__item,
+.faq__answers__items__item {
+  width: 750px;
+  margin: 0 auto;
+  background: #FDFEFD;
+  color: #6C6C6C;
+  box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.faq__questions__title,
+.faq__answers__title {
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 0.8470588235);
+}
+
+footer {
+  background-color: #FDFEFD;
+  height: 450px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.left-footer {
+  width: 48%;
+}
+
+.right-footer {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 70%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.social span {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.logo a {
+  padding-left: 10px;
+  color: black;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+#menu-footer-navigation li,
+#menu-third-nav li {
+  padding-bottom: 25px;
+  text-align: left;
+}
+
+.right-footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  color: black;
+}
+
+footer .footer-paragraf {
+  background-color: #F1F5F9;
+  text-align: center;
+  padding: 15px;
+}
+
+#menu-footer-navigation,
+#menu-third-nav {
+  padding: 0;
+}
+
+.faq_section {
+  width: 800px;
+  margin: 0 auto;
+  background: #FDFEFD;
+  padding-left: 20px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.faq_section h1 {
+  padding: 10px;
+}
+
+.faq__questions__items__item {
+  background: #FDFEFD;
+  color: #6C6C6C;
+  box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.answer {
+  background: rgba(15, 23, 42, 0.0784313725);
+  color: #6C6C6C;
+  box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+.answer {
+  display: none;
+}
+
+.chevron {
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.profile-bussines {
+  margin-top: 30px;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 23%;
+  background: #FDFEFD;
+  box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.09);
+  border-radius: 16px;
+  text-align: center;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.item h5 {
+  line-height: 2;
+  letter-spacing: 1.5;
+}
+
+.star {
+  color: yellow;
+}
+
+.foto {
+  width: 350px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 50%;
+  text-align: justify;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: white;
+  color: #333;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
