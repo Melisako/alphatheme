@@ -1,4 +1,5 @@
 
+
 <div class="wrapper">
     <div class="content">
       <!-- Your page content here -->
@@ -16,3 +17,4 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/footer.css'; ?>">
 
 </html>
+
