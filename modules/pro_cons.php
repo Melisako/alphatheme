@@ -1,5 +1,13 @@
 <h1>PROS & CONS </h1>
   <div class="container">
+  
+    <table>
+      <tr>
+        <td>
+          <div class="pros">
+            <h2>PROS</h2>
+
+      
                 <?php if (get_row_layout() == 'pro_cons') :
                   $columns_copy = get_sub_field('columns_copy');
                   if (is_array($columns_copy) || is_object($columns_copy)) {
@@ -15,7 +23,8 @@
                   </div>
 
                 <?php } endif; ?>
-
+            
+           
           </div>
         </td>
 
@@ -23,7 +32,7 @@
           <div class="cons">
             <h2>CONS</h2>
 
-
+  
                 <?php if (get_row_layout() == 'pro_cons') :
                   $columns_cons = get_sub_field('columns_cons');
                 ?>
@@ -37,6 +46,9 @@
                     <?php endforeach; ?>
                   </div>
 
+                <?php endif; ?>
+          
+           
           </div>
         </td>
       </tr>
@@ -47,3 +59,4 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/prosCons.css'; ?>">
 
 <!-- Include the Font Awesome library -->
+<script src="your-font-awesome-kit.js" crossorigin="anonymous"></script>

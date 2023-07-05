@@ -1,4 +1,5 @@
  /* Container styles */
+
  .conta {
   display: flex;
   justify-content: space-between;
@@ -89,7 +90,7 @@ h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   /* Adjust columns for smaller screens */
   .custom-column {
     width: 100%;
