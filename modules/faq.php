@@ -1,6 +1,6 @@
 
-<?php 
 
+<?php
 /*
     $questions = [];
     $answers = [];
@@ -43,11 +43,12 @@
 
 */
 
-// <?php  
-
-if (have_rows('faq_items')) :
 ?>
 <div class="test">
+<?php 
+if (have_rows('faq_items')) :
+?>
+
 <div class="faq">
 <div class="container">
 <div class="faq_section">
@@ -70,11 +71,15 @@ if (have_rows('faq_items')) :
       <?php endwhile; ?>
   </div>
 </div>
+<!-- </div>
+</div> -->
+
 </div>
 </div>
 <?php
 endif;
 ?>
 </div>
+
 
 

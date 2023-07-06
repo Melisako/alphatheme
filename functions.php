@@ -34,10 +34,13 @@ function post_type() {
         'public' => true,
         'has_archive' => true,
         'menu_position' => 5,
-        'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields' ),
+        'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields','comments' ),
+        'capability_type' => 'post', 
     );
 
     register_post_type( 'bussines_post', $args );
 }
 add_action( 'init', 'post_type' );
+
+
 ?>

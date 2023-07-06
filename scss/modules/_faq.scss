@@ -1,18 +1,31 @@
+.test{
+    background-color: #F8FAFC;
+    position: relative;
+    height: 380px;
+}
+.faq{
+    background-color: #F8FAFC;
+    position: relative;
+  padding-bottom: 20px;
+//   height: 380px;
+}
 
 .faq_section{
-    width: 800px;
+    // width: 800px;
     // height: 500px;
     margin: 0 auto;
-    background: #FDFEFD;
+//     background: #FDFEFD;
 //   box-shadow: 0px 0px 12px rgba(15, 23, 42, 0.09);
-//     border-radius: 16px;
-    padding-left: 20px;
+    border-radius: 16px;
+    // padding-left: 20px;
     position: relative;
-    padding-bottom: 20px;
+  
+ 
   
 }
 .faq_section h1{
     padding: 10px;
+    padding-top: 15px;
 }
 .faq__questions__items__item{
     background: #FDFEFD;

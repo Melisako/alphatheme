@@ -1,0 +1,118 @@
+$gallery-margin-bottom: 20px;
+$gallery-container-width: 1100px;
+$gallery-container-margin: 50px auto;
+$gallery-carousel-width: 959.5px;
+$gallery-carousel-height: 167px;
+$gallery-carousel-margin: 0 10px;
+$gallery-carousel-image-height: 165px;
+$gallery-carousel-image-border-radius: 8px;
+$gallery-prev-next-size: 30px;
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $gallery-margin-bottom;
+
+    .container {
+        width: 100%;
+        max-width: $gallery-container-width;
+        margin: $gallery-container-margin;
+    }
+    h1 {
+        padding: 0 30px 30px 10px;
+        color: #000;
+        font-size: 32px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        line-height: 27px;
+    }
+    .gallerycarousel {
+        display: flex;
+        width: $gallery-carousel-width;
+        height: $gallery-carousel-height;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0;
+
+        .gallerycarousel1 {
+            margin: $gallery-carousel-margin;
+
+            img {
+                width: 100%;
+                height: $gallery-carousel-image-height;
+                object-fit: cover;
+                border-radius: $gallery-carousel-image-border-radius;
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 140%;
+        transform: translateY(-50%);
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+
+        &.slick-prev {
+            left: 45%;
+            border-radius: 50%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            width: $gallery-prev-next-size;
+            height: $gallery-prev-next-size;
+
+            &:before {
+                content: "";
+                display: block;
+                width: 0;
+                height: 0;
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-right: 10px solid #000;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -50%);
+            }
+        }
+
+        &.slick-next {
+            right: 45%;
+            border-radius: 50%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            width: $gallery-prev-next-size;
+            height: $gallery-prev-next-size;
+
+            &:before {
+                content: "";
+                display: block;
+                width: 0;
+                height: 0;
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-left: 10px solid #000;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-60%, -50%);
+            }
+        }
+    }
+}
