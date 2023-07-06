@@ -18,7 +18,7 @@ if (have_rows('col')) {
 }
 ?>
 
-<div class="container-image" style="background-image: url('<?php echo $image['url']; ?>'); background-color: rgba(0, 0, 0, 0.3);">
+<div class="container-image" style="background-image: url('<?php echo $image['url']; ?>'); ">
 
 
     <div class="overlay"></div>
@@ -46,8 +46,7 @@ if (have_rows('col')) {
 </div>
 </div>
 
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/homepage.css'; ?>">
 
 
-
+<?php get_footer();?>
 

@@ -1,4 +1,4 @@
-<h1>PROS & CONS </h1>
+<h1 class="h1">PROS & CONS </h1>
   <div class="container">
   
     <table>
@@ -55,8 +55,6 @@
     </table>
   </div>
 
-
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/prosCons.css'; ?>">
 
 <!-- Include the Font Awesome library -->
 <script src="your-font-awesome-kit.js" crossorigin="anonymous"></script>

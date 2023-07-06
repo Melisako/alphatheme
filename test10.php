@@ -30,5 +30,4 @@ get_header();
     <?php endwhile; ?>
   <?php endif; ?>
 </div>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/quick.css'; ?>">
 <?php get_footer(); ?>
