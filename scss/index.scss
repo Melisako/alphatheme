@@ -1,13 +1,12 @@
 
+@import 'modules/proCon';
 
-@import "modules/carousel";
+@import 'modules/homepage';
+@import 'modules/quickFa';
 
-@import 'modules/customer_profile';
-
-@import 'modules/contact';
 
 header{
-    background-color: $bg-color;
+    background-color: #fff;
     height: 10vh;
     display: flex;
     align-items: center;
