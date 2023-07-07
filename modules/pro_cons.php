@@ -1,5 +1,9 @@
 
+<h1 class="h1">PROS & CONS </h1>
+
+
 <h1>PROS & CONS </h1>
+
   <div class="container">
   
     <table>
@@ -15,9 +19,11 @@
                 ?>
 
                   <div class="columns-section">
+                    
                     <?php foreach ($columns_copy as $column) : ?>
                       <div class="column">
                         <p><?php echo $column['content']; ?></p>
+
                         <i class="fas fa-thumbs-up"></i>
                       </div>
                     <?php endforeach; ?>
@@ -56,8 +62,6 @@
     </table>
   </div>
 
-
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/prosCons.css'; ?>">
 
 <!-- Include the Font Awesome library -->
 <script src="your-font-awesome-kit.js" crossorigin="anonymous"></script>

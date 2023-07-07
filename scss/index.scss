@@ -1,4 +1,6 @@
 
+@import 'modules/proCon';
+ 
 @import 'modules/faq';
 @import 'modules/navbar';
 @import 'modules/footer.scss';
@@ -39,12 +41,19 @@ body{
 
 @import "modules/carousel";
 
-@import 'modules/customer_profile';
 
-@import 'modules/contact';
+@import 'modules/customer_profile';
+@import 'modules/carousel';
+@import 'modules/homepage';
+@import 'modules/quickFa';
+
 
 header{
+
+    background-color: #fff;
+
     background-color: #FDFEFD;
+
     height: 10vh;
     display: flex;
     align-items: center;

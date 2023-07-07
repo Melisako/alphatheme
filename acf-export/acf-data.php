@@ -19,7 +19,6 @@ acf_add_local_field_group(array(
             ),
             // prej qitu keni me shtu layouts (module)
           
-
 			'layouts' => array(
 				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
@@ -157,7 +156,23 @@ acf_add_local_field_group(array(
 								),
 								array(
 									'key' => 'field_649fe044d64a3',
-									'label' => 'Content',
+									'label' => 'link',
+									'name' => 'link',
+									'type' => 'url',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+								),
+								array(
+									'key' => 'field_649fe084d64a4',
+									'label' => 'content',
 									'name' => 'content',
 									'type' => 'textarea',
 									'instructions' => '',
@@ -174,26 +189,41 @@ acf_add_local_field_group(array(
 									'rows' => '',
 									'new_lines' => '',
 								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
+				'layout_64a4815feb8e4' => array(
+					'key' => 'layout_64a4815feb8e4',
+					'name' => 'homepage_header',
+					'label' => 'Homepage Header',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_64a4817deb8e5',
+							'label' => 'col',
+							'name' => 'col',
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => 'Add hompage header',
+							'sub_fields' => array(
 								array(
-									'key' => 'field_649fe084d64a4',
-									'label' => 'Link',
-									'name' => 'link',
-									'type' => 'url',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
-									'default_value' => '',
-									'placeholder' => '',
-								),
-								array(
-									'key' => 'field_64a09cb4df721',
-									'label' => 'image future',
-									'name' => 'image_future',
+									'key' => 'field_64a49f1de5013',
+									'label' => 'image',
+									'name' => 'image',
 									'type' => 'image',
 									'instructions' => '',
 									'required' => 0,
@@ -214,13 +244,31 @@ acf_add_local_field_group(array(
 									'max_size' => '',
 									'mime_types' => '',
 								),
+								array(
+									'key' => 'field_64a5bbe65d73b',
+									'label' => 'title',
+									'name' => 'title',
+									'type' => 'text',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'prepend' => '',
+									'append' => '',
+									'maxlength' => '',
+								),
 							),
 						),
 					),
 					'min' => '',
 					'max' => '',
 				),
-
                 //L
                 'layout_64942cee77bea' => array(
                     'key' => 'layout_64942cee77bea',
