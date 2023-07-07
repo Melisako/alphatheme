@@ -1,3 +1,4 @@
+
 @import 'modules/faq';
 @import 'modules/navbar';
 @import 'modules/footer.scss';
@@ -32,5 +33,69 @@ body{
     margin: 0 auto;
   
 }
-//==============================================================================================
+
+
+
+
+@import "modules/carousel";
+
+@import 'modules/customer_profile';
+
+@import 'modules/contact';
+
+header{
+    background-color: #FDFEFD;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  margin: 0;
+    position: relative;
+  }
+  
+  .img img {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .left{
+    left: 0;
+  }
+  
+  .right{
+    width: 25px;
+    top: 15px;
+    right: 0;
+  }
+  
+  .menu-main-navigation-container .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  2fr;
+   text-align: center;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .menu li, a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .menu-main-navigation-container .menu li:nth-child(4){
+   text-align: right;
+   margin-right: 25px;
+  
+  
+  }
+  .menu-main-navigation-container .menu li:last-child{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    width: 20px;
+  
+  }
 

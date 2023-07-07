@@ -1,3 +1,4 @@
+ Laurat
 .test {
   background-color: #F8FAFC;
   position: relative;
@@ -394,6 +395,7 @@ span {
   background-color: #45a049;
 }
 
+AlmedinAgushii
 .gallery {
   display: flex;
   justify-content: center;
@@ -413,6 +415,7 @@ span {
   font-weight: 700;
   line-height: 27px;
 }
+Laurat
 .gallery .gallerycarousel {
   display: flex;
   width: 959.5px;
@@ -421,6 +424,7 @@ span {
   align-items: flex-start;
   flex-shrink: 0;
 }
+ AlmedinAgushii
 .gallery .gallerycarousel .gallerycarousel1 {
   margin: 0 10px;
 }
@@ -497,7 +501,7 @@ span {
   left: 50%;
   transform: translate(-60%, -50%);
 }
-
+ Laurat
 html,
 body {
   margin: 0;
@@ -510,6 +514,150 @@ body {
   position: relative;
   width: 1100px;
   margin: 0 auto;
+=======
+.customer {
+  margin-bottom: 85px;
+}
+.customer .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+.customer .customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.customer .customer-table th,
+.customer .customer-table td {
+  padding: 10px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 23px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact-container .form-group {
+  margin-bottom: 20px;
+}
+.contact-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2a2a2a;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.contact-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0F172A;
+  font-size: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact-container input[type=text],
+.contact-container input[type=email],
+.contact-container textarea {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+.contact-container input[type=text]:hover,
+.contact-container input[type=email]:hover,
+.contact-container textarea:hover {
+  border-color: #54D350;
+  box-shadow: 0 0 8px rgba(84, 213, 80, 0.3);
+}
+.contact-container #contact-form input[type=submit] {
+  display: flex;
+  border-radius: 16px;
+  border: none;
+  background: #54D577;
+  width: 256px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #0F172A;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  transition: background-color 0.3s ease;
+}
+.contact-container #contact-form input[type=submit]:hover {
+  background-color: #54D350;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.contact-container #contact-form input[type=submit]:focus {
+  outline: none;
+}
+
+header {
+  background-color: red;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: relative;
+}
+
+.img img {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  width: 25px;
+  top: 15px;
+  right: 0;
+}
+
+.menu-main-navigation-container .menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu li, a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: black;
+}
+
+.menu-main-navigation-container .menu li:nth-child(4) {
+  text-align: right;
+  margin-right: 25px;
+}
+
+.menu-main-navigation-container .menu li:last-child {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  width: 20px;
+ AlmedinAgushii
 }
 
 /*# sourceMappingURL=style.css.map */
