@@ -14,9 +14,11 @@
                 ?>
 
                   <div class="columns-section">
+                    
                     <?php foreach ($columns_copy as $column) : ?>
                       <div class="column">
                         <p><?php echo $column['content']; ?></p>
+
                         <i class="fas fa-thumbs-up"></i>
                       </div>
                     <?php endforeach; ?>
