@@ -18,6 +18,18 @@
 <body <?php body_class(); ?>>
 
 <section class="header">
+
+<div class="container">
+<div class="img">
+<img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>"  class="left">
+</div>
+    <div class="navmenu">
+ <?php   wp_nav_menu(array('theme_location' => 'primary')) ;?>
+
+</div>
+</div>
+</section>
+
     <div class="container">
         <div class="img">
             <img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>" class="left">
@@ -40,3 +52,4 @@
 
 </body>
 </html>
+

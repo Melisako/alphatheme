@@ -1,4 +1,9 @@
+
 <h1 class="h1">PROS & CONS </h1>
+
+
+<h1>PROS & CONS </h1>
+
   <div class="container">
   
     <table>

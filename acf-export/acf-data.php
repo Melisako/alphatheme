@@ -340,6 +340,295 @@ acf_add_local_field_group(array(
                     'max' => '',
                 ),
 
+        
+				'layout_64937496af6bc' => array(
+					'key' => 'layout_64937496af6bc',
+					'name' => 'pro_cons',
+					'label' => 'Pro Cons',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649fe33e2d926',
+							'label' => 'Columns (copy)',
+							'name' => 'columns_copy',
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => '',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_649fe33f2d927',
+									'label' => 'Content',
+									'name' => 'content',
+									'type' => 'textarea',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+								),
+							),
+						),
+						array(
+							'key' => 'field_64a334cf4368f',
+							'label' => 'Columns cons',
+							'name' => 'columns_cons',
+
+
+                'layout_649944239c9b0' => array(
+					'key' => 'layout_649944239c9b0',
+					'name' => 'carousel',
+					'label' => 'Carousel',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_64994434bd67e',
+							'label' => 'image_gallery',
+							'name' => 'image_gallery',
+
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+							'button_label' => '',
+							'sub_fields' => array(
+								array(
+
+									'key' => 'field_64a334cf43690',
+									'label' => 'Contenti',
+									'name' => 'contenti',
+									'type' => 'textarea',
+
+									'key' => 'field_6499444cbd67f',
+									'label' => 'gallerycarousel',
+									'name' => 'gallerycarousel',
+									'type' => 'gallery',
+
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+
+									'default_value' => '',
+									'placeholder' => '',
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+
+									'return_format' => 'url',
+									'preview_size' => 'medium',
+									'insert' => 'append',
+									'library' => 'all',
+									'min' => '',
+									'max' => '',
+									'min_width' => '',
+									'min_height' => '',
+									'min_size' => '',
+									'max_width' => '',
+									'max_height' => '',
+									'max_size' => '',
+									'mime_types' => '',
+
+								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
+
+                'layout_649fdfffd64a0' => array(
+					'key' => 'layout_649fdfffd64a0',
+					'name' => 'quick_facts',
+					'label' => 'Quick Facts',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649fe023d64a1',
+							'label' => 'Colum',
+							'name' => 'colum',
+
+				'layout_649d6a7c07238' => array(
+					'key' => 'layout_649d6a7c07238',
+					'name' => 'customer_profile',
+					'label' => 'Customer profile',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_649d6a97db968',
+							'label' => 'Personal Information',
+							'name' => 'personal_information',
+
+							'type' => 'repeater',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'collapsed' => '',
+							'min' => 0,
+							'max' => 0,
+							'layout' => 'table',
+
+							'button_label' => 'Add quick fact',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_649fe03cd64a2',
+									'label' => 'Title',
+									'name' => 'title',
+
+							'button_label' => '',
+							'sub_fields' => array(
+								array(
+									'key' => 'field_649d6b05db969',
+									'label' => 'First Name',
+									'name' => 'first_name',
+
+									'type' => 'text',
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+									'prepend' => '',
+									'append' => '',
+									'maxlength' => '',
+								),
+								array(
+
+									'key' => 'field_649fe044d64a3',
+									'label' => 'Content',
+									'name' => 'content',
+									'type' => 'textarea',
+
+									'key' => 'field_649d6c3ddb96a',
+									'label' => 'Last Name',
+									'name' => 'last_name',
+									'type' => 'text',
+
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+
+									'maxlength' => '',
+									'rows' => '',
+									'new_lines' => '',
+								),
+								array(
+									'key' => 'field_649fe084d64a4',
+									'label' => 'Link',
+									'name' => 'link',
+									'type' => 'url',
+
+									'prepend' => '',
+									'append' => '',
+									'maxlength' => '',
+								),
+								array(
+									'key' => 'field_649d6c47db96b',
+									'label' => 'email',
+									'name' => 'email',
+									'type' => 'email',
+
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+									'default_value' => '',
+									'placeholder' => '',
+
+								),
+								array(
+									'key' => 'field_64a09cb4df721',
+									'label' => 'image future',
+									'name' => 'image_future',
+									'type' => 'image',
+
+									'prepend' => '',
+									'append' => '',
+								),
+								array(
+									'key' => 'field_649d6c5cdb96c',
+									'label' => 'date of birth',
+									'name' => 'date_of_birth',
+									'type' => 'date_picker',
+
+									'instructions' => '',
+									'required' => 0,
+									'conditional_logic' => 0,
+									'wrapper' => array(
+										'width' => '',
+										'class' => '',
+										'id' => '',
+									),
+
+									'return_format' => 'array',
+									'preview_size' => 'medium',
+									'library' => 'all',
+									'min_width' => '',
+									'min_height' => '',
+									'min_size' => '',
+									'max_width' => '',
+									'max_height' => '',
+									'max_size' => '',
+									'mime_types' => '',
+								),
+							),
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
                 'layout_649944239c9b0' => array(
 					'key' => 'layout_649944239c9b0',
 					'name' => 'carousel',
@@ -370,6 +659,17 @@ acf_add_local_field_group(array(
 									'label' => 'gallerycarousel',
 									'name' => 'gallerycarousel',
 									'type' => 'gallery',
+
+									'display_format' => 'd/m/Y',
+									'return_format' => 'd/m/Y',
+									'first_day' => 1,
+								),
+								array(
+									'key' => 'field_649d6cb6db96d',
+									'label' => 'Description',
+									'name' => 'description',
+									'type' => 'textarea',
+
 									'instructions' => '',
 									'required' => 0,
 									'conditional_logic' => 0,
@@ -378,6 +678,7 @@ acf_add_local_field_group(array(
 										'class' => '',
 										'id' => '',
 									),
+
 									'return_format' => 'url',
 									'preview_size' => 'medium',
 									'insert' => 'append',
@@ -391,129 +692,13 @@ acf_add_local_field_group(array(
 									'max_height' => '',
 									'max_size' => '',
 									'mime_types' => '',
-								),
-							),
-						),
-					),
-					'min' => '',
-					'max' => '',
-				),
-				'layout_649d6a7c07238' => array(
-					'key' => 'layout_649d6a7c07238',
-					'name' => 'customer_profile',
-					'label' => 'Customer profile',
-					'display' => 'block',
-					'sub_fields' => array(
-						array(
-							'key' => 'field_649d6a97db968',
-							'label' => 'Personal Information',
-							'name' => 'personal_information',
-							'type' => 'repeater',
-							'instructions' => '',
-							'required' => 0,
-							'conditional_logic' => 0,
-							'wrapper' => array(
-								'width' => '',
-								'class' => '',
-								'id' => '',
-							),
-							'collapsed' => '',
-							'min' => 0,
-							'max' => 0,
-							'layout' => 'table',
-							'button_label' => '',
-							'sub_fields' => array(
-								array(
-									'key' => 'field_649d6b05db969',
-									'label' => 'First Name',
-									'name' => 'first_name',
-									'type' => 'text',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
-									'default_value' => '',
-									'placeholder' => '',
-									'prepend' => '',
-									'append' => '',
-									'maxlength' => '',
-								),
-								array(
-									'key' => 'field_649d6c3ddb96a',
-									'label' => 'Last Name',
-									'name' => 'last_name',
-									'type' => 'text',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
-									'default_value' => '',
-									'placeholder' => '',
-									'prepend' => '',
-									'append' => '',
-									'maxlength' => '',
-								),
-								array(
-									'key' => 'field_649d6c47db96b',
-									'label' => 'email',
-									'name' => 'email',
-									'type' => 'email',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
-									'default_value' => '',
-									'placeholder' => '',
-									'prepend' => '',
-									'append' => '',
-								),
-								array(
-									'key' => 'field_649d6c5cdb96c',
-									'label' => 'date of birth',
-									'name' => 'date_of_birth',
-									'type' => 'date_picker',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
-									'display_format' => 'd/m/Y',
-									'return_format' => 'd/m/Y',
-									'first_day' => 1,
-								),
-								array(
-									'key' => 'field_649d6cb6db96d',
-									'label' => 'Description',
-									'name' => 'description',
-									'type' => 'textarea',
-									'instructions' => '',
-									'required' => 0,
-									'conditional_logic' => 0,
-									'wrapper' => array(
-										'width' => '',
-										'class' => '',
-										'id' => '',
-									),
+
 									'default_value' => '',
 									'placeholder' => 'Write Description!',
 									'maxlength' => '',
 									'rows' => '',
 									'new_lines' => '',
+
 								),
 							),
 						),
@@ -521,9 +706,17 @@ acf_add_local_field_group(array(
 					'min' => '',
 					'max' => '',
 				),
+
+				
+            ),
+
+
+            // end
+
                 //end
             ),
         
+
 
             'button_label' => 'Add Module',
             'min' => '',
@@ -536,6 +729,13 @@ acf_add_local_field_group(array(
                 'param' => 'post_type',
                 'operator' => '==',
                 'value' => 'page',
+            ),    
+        ),
+        array(
+            array(
+                'param' => 'post_type',
+                'operator' => '==',
+                'value' => 'Businesses',
             ),
         ),
     ),
