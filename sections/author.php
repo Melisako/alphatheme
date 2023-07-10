@@ -36,15 +36,7 @@
 
 
             ?>   
-            <?php
-        
-        $vimeo_url = get_the_author_meta('vimeo', $id);
-        $anchor_html = sprintf(
-        '<a href="%s" target="_blank"><i class="fab fa-vimeo"></i></a>', 
-         esc_url($vimeo_url)
-        );
-
-         echo $anchor_html;?>     
+            
         </div>
      </div> 
 

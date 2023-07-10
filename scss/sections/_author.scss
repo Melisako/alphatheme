@@ -24,6 +24,7 @@
     width: 10%;
 }
 .about-author-info{
+    display: flex;
     text-align: center;
     padding-left: 15px;
     float: left;
@@ -33,7 +34,7 @@
 .about-author-info .icons{
     justify-content: center;
     display: flex;
-    margin-left: -70px;
+    margin-left: -60px;
     padding-bottom: 50px;
 }
 
@@ -52,14 +53,14 @@
 .more-info {
     text-decoration: none;
     position: absolute;
-    padding-top: 100px;
+    padding-top: 5px;
 }
 
 
 .nickname {
-  
-    padding-left: 10px;
-    padding-top: 20px;
+    display: flex;
+    padding-left: 5px;
+    padding-top: 30px;
 }
 
 
@@ -76,16 +77,12 @@
     
     
     padding-top: 70px;
-   padding-left: 20px;
+   padding-left: 22px;
 
 }
 .fab.fa-pinterest {
     
-    padding-left: 5px;
+    padding-left: 2px;
     padding-top: 70px;
 
-}
-.fab.fa-vimeo {
-    padding-left: 5px;
-    padding-top: 70px;
 }
