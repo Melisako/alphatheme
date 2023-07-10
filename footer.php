@@ -1,4 +1,4 @@
-
+<?php include(__DIR__ . '/sections/author.php'); ?>
 <footer>
 
 <div class="container">
