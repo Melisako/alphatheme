@@ -1,10 +1,4 @@
-
-<!-- Include the header -->
-<?php get_header(); ?>
-
-
-
-
+<div class="container">
 <h1 class="quick-h1">QUICK FACTS</h1>
 
 <div class="quick-cont">
@@ -12,7 +6,7 @@
     $colum = get_sub_field('colum');
     if (is_array($colum) || is_object($colum)) {
   ?>
-
+<div class="container">
   <div class="quick-section">
     <?php foreach ($colum as $column) : ?>
     <div class="co">
@@ -27,34 +21,7 @@
 
   <?php } endif; ?>
 </div>
+    </div>
 
-
-
-<div class="container">
-
-  
-      <?php if (get_row_layout() == 'quick_facts') :
-        $columns = get_sub_field('colum');
-        if (is_array($colum) || is_object($colum)) {
-          ?>
-   
-
-      <div class="columns-section">
-      <?php foreach ($colum as $column) : ?>
-          <div class="column">
-            <p><?php echo $column['title']; ?></p>
-            <p><?php echo $column['content']; ?></p>
-            <p><?php echo $column['link']; ?></p>
-          </div>
-        <?php endforeach; ?>
-      </div>
-
-      <?php } endif; ?>
- 
-
-</div>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/quick.css'; ?>">
-
-
-<!-- Include the footer -->
-<?php get_footer(); ?>
+    
+    </div>

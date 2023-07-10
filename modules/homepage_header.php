@@ -1,8 +1,4 @@
 
-<!-- Include the header -->
-<?php
-get_header();
-?>
 
 <?php
 $image = null; // Initialize the $image variable
@@ -48,5 +44,5 @@ if (have_rows('col')) {
 
 
 
-<?php get_footer();?>
+
 

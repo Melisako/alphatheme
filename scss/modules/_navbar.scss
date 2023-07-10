@@ -13,6 +13,7 @@ $bg-color: #FDFEFD;
     position: absolute;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -35,11 +36,12 @@ $bg-color: #FDFEFD;
 
 }
 
-  .menu li, a{
+ .menu li, a{
     text-decoration: none;
     list-style: none;
     font-size: 20px;
     color: black;
+
 }
 
  .menu-main-navigation-container .menu li:nth-child(4){

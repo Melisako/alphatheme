@@ -7,16 +7,14 @@
 <div class="container">
 <div class="bussines_profile">
 <?php $fotot = get_field('foto'); 
-if($fotot) :?>
-
-<?php foreach($fotot as $foto): ?>
-    <div class="foto">
-<img src="<?php echo $foto; ?>" class='foto'>
-</div>
-
-<?php endforeach; ?>
-
+if ($fotot) : ?>
+    <?php foreach ($fotot as $foto) : ?>
+        <div class="foto">
+            <img src="<?php echo $foto['url']; ?>" alt="<?php echo $foto['alt']; ?>" class="foto">
+        </div>
+    <?php endforeach; ?>
 <?php endif; ?>
+
 <div class="bussines-content">
 <div class="emri_reviews">
     <div class="bussines-emri">

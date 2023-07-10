@@ -22,6 +22,22 @@ if (file_exists(get_stylesheet_directory() . '/acf-export/acf-data.php')) {
     include_once(get_stylesheet_directory() . '/acf-export/acf-data.php');
 }
 
+
+add_action('init', 'my_remove_editor_from_post_type');
+
+function my_remove_editor_from_post_type() {
+remove_post_type_support( 'post', 'editor' );
+remove_post_type_support( 'page', 'editor' );
+}
+
+
+
+
+
+
+
+
+
 function post_type() {
     $etiketa = array(
         'name' => 'Businesses',
@@ -41,6 +57,7 @@ function post_type() {
     register_post_type( 'bussines_post', $args );
 }
 add_action( 'init', 'post_type' );
+
 
 
 ?>
