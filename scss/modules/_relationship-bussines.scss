@@ -5,6 +5,8 @@
     align-items: center;
     margin: auto 0px;
     margin-top: 50px;
+    margin-bottom: 30px;
+ 
 }
 .relationship-img img{
     width: 72px;
@@ -12,7 +14,6 @@
     border-radius: 50%;
     object-fit: cover;
     
-
 }
 .relationship-info{
     display: flex;
@@ -21,8 +22,9 @@
 }
 .relationship-info img{
     border-radius: 50%;
-    width: 85px;
+    width: 72px;
     height: 72px;
+    object-fit: cover;
 }
 .relationship-info h4{
     margin-left: 20px;
