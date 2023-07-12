@@ -668,7 +668,7 @@ span {
 .all {
   display: flex;
   flex-direction: column;
-  margin-top: -55px;
+  margin-top: -65px;
 }
 
 .fas.fa-thumbs-up {
