@@ -1,5 +1,4 @@
 
-
 <?php
 $image = null; 
 $title = null; 
@@ -39,12 +38,5 @@ if (get_row_layout() === 'homepage_header') {
 
 </div>
 </div>
-
-
-
-
-
-
-
 
 

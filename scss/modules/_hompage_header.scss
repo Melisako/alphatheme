@@ -1,5 +1,5 @@
 @media (max-width: 960px) {
-    /* Adjust columns for smaller screens */
+  
     .custom-column {
       width: 100%;
     }
@@ -22,13 +22,17 @@
       width: 100%;
       height: 100%;
   
-      opacity: 0.3; /* Adjust the opacity value for more transparency */
+      opacity: 0.3; 
     }
   
     .overlay {
-      background-color: rgba(0, 0, 0, 0.9);
-      /* Adjust the rgba values as needed for the overlay color */
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5; 
     }
+    
   
     .title {
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,7 +43,7 @@
       color: white;
       font-size: 50px;
       font-weight: bold;
-      /* Add any additional title styles here */
+    
     }
   }
   
@@ -47,20 +51,23 @@
     background-color: white;
     border: none;
     height: 25px;
-    margin-right: 10px;
+    margin-right: 15px;
     padding: 10px;
     margin-top: 50px;
     color: #fff;
     border-radius: 10px;
-    /* Add this line */
+   position: relative;
+   z-index: 1;
+ 
   }
   
   .div {
-    margin-right: 170px;
+    margin-right: 170px;  
+    
   }
   
   .input-container .long {
-    width: 250px; /* Adjust the width value as needed */
+    width: 250px;
   }
   
   .title .p {
@@ -68,7 +75,7 @@
     font-size: 18px;
     font-weight: lighter;
     color: #fff;
-    // margin-top: -27px;
+
   }
   
   .all {
