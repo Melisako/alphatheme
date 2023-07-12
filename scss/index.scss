@@ -8,6 +8,7 @@
 @import 'modules/proCons';
 @import 'modules/quick';
 @import 'modules/author';
+@import 'modules/contact';
 
 
 
@@ -20,6 +21,10 @@
 
 
 
+
+// *{
+//     box-sizing: border-box;
+// }
 html,
 body{
     margin: 0;
