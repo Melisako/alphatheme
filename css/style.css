@@ -623,13 +623,15 @@ span {
 }
 .container-image .title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  position: absolute;
-  top: 40%;
-  left: 43%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 40%; */
+  /* left: 43%; */
+  /* transform: translate(-50%, -50%); */
   color: white;
   font-size: 50px;
   font-weight: bold;
+  position: relative;
+  align-items: center;
 }
 
 .input-container input[type=text] {
@@ -643,14 +645,16 @@ span {
   border-radius: 10px;
   position: relative;
   z-index: 1;
+  width: 220px;
 }
 
 .div {
   margin-right: 170px;
+  margin-top: -30px;
 }
 
 .input-container .long {
-  width: 250px;
+  width: 360px !important;
 }
 
 .title .p {
@@ -658,11 +662,13 @@ span {
   font-size: 18px;
   font-weight: lighter;
   color: #fff;
+  letter-spacing: 1.5px;
 }
 
 .all {
   display: flex;
   flex-direction: column;
+  margin-top: -55px;
 }
 
 .fas.fa-thumbs-up {

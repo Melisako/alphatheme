@@ -15,6 +15,7 @@ if (get_row_layout() === 'homepage_header') {
 
 
     <div class="overlay"></div>
+    <div class="container">
     <div class="all">
     
     <div class="title">
@@ -35,7 +36,7 @@ if (get_row_layout() === 'homepage_header') {
         </div>
 
 </div>
-
+</div>
 </div>
 </div>
 

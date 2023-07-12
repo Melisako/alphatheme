@@ -6,6 +6,7 @@
       $colum = get_sub_field('colum');
       if (is_array($colum) || is_object($colum)) {
     ?>
+    
     <div class="container">
       <div class="quick-section">
         <?php foreach ($colum as $column) : ?>
