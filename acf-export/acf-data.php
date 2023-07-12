@@ -18,7 +18,7 @@ acf_add_local_field_group(array(
                 'id' => '',
             ),
             // prej qitu keni me shtu layouts (module)
-          
+		
 			'layouts' => array(
 				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
@@ -269,6 +269,47 @@ acf_add_local_field_group(array(
 					'min' => '',
 					'max' => '',
 				),
+				'layout_64aad6e5e4f11' => array(
+					'key' => 'layout_64aad6e5e4f11',
+					'name' => 'toplist',
+					'label' => 'Toplist',
+					'display' => 'block',
+					'sub_fields' => array(
+						array(
+							'key' => 'field_64abd3861cd8f',
+							'label' => 'Business',
+							'name' => 'business',
+							'type' => 'relationship',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'post_type' => array(
+								0 => 'bussines_pos',
+							),
+							'taxonomy' => '',
+							'filters' => array(
+								0 => 'search',
+							),
+							'elements' => array(
+								0 => 'featured_image',
+							),
+							'min' => '',
+							'max' => '',
+							'return_format' => 'object',
+						),
+					),
+					'min' => '',
+					'max' => '',
+				),
+			
+				
+		
+		
                 //L
                 'layout_64942cee77bea' => array(
                     'key' => 'layout_64942cee77bea',
