@@ -7,9 +7,10 @@
   }
   
   .quick-section {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 16px;
+    display: flex;
+    // grid-template-columns: 25% 25%;
+    grid-gap: 20px;
+    box-sizing: border-box;
   }
   body {
     background-color: #f9f7f3;;
@@ -29,7 +30,8 @@
   .co {
     width: 100%;
     padding: 25px;
-    height: 240px;
+    height:auto;
+    text-align: left;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 8px;
