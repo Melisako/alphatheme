@@ -1,17 +1,15 @@
 
 
 <?php
-$image = null; // Initialize the $image variable
-$title = null; // Initialize the $title variable
+$image = null; 
+$title = null; 
 
-if (have_rows('col')) {
-    while (have_rows('col')) {
-        the_row();
+if (get_row_layout() === 'homepage_header') {
+
         $image = get_sub_field('image');
         $title = get_sub_field('title');
-        break; // Exit the loop after getting the first image and title
     }
-}
+
 ?>
 
 <div class="container-image" style="background-image: url('<?php echo $image['url']; ?>'); ">
@@ -35,12 +33,13 @@ if (have_rows('col')) {
         <input type="text" name="custom-input" class="long">
         <input type="text" name="custom-input" >
         <input type="text" name="custom-input" >
-
         </div>
-      
+
+</div>
+
 </div>
 </div>
-</div>
+
 
 
 
