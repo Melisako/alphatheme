@@ -36,13 +36,14 @@
 }
 
 .bussines_profile .foto {
-    width: 330px;
-    height: 300px;
+    width: 300px;
+    height: 285px;
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 10px;
     // box-shadow: 0px 0px 8px rgba(15, 23, 42, 0.2);
     margin-top: 5px;
+    margin-right: 15px;
    
 }
 
@@ -163,7 +164,7 @@ margin-top: 20px;
 
 .comment-meta {
     position: absolute;
-    top: -4px;
+    top: 12px;
     right: 10px;
     // background-color: #f8f8f8;
     padding: 5px 10px;

@@ -1,13 +1,14 @@
 @import 'modules/faq';
 @import 'modules/navbar';
 @import 'modules/footer.scss';
-// @import 'modules/prova.scss';
 @import 'modules/bussines-profile';
 @import 'modules/carousel';
 @import 'modules/relationship-bussines';
 @import 'modules/hompage_header';
 @import 'modules/proCons';
 @import 'modules/quick';
+@import 'modules/author';
+@import 'modules/contact';
 
 
 
@@ -20,12 +21,17 @@
 
 
 
+
+// *{
+//     box-sizing: border-box;
+// }
 html,
 body{
     margin: 0;
     background-color: white;
     color:#333;
     padding: 0;
+   
    
 }
 .container{
