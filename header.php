@@ -14,7 +14,13 @@
 <img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>"  class="left">
 </div>
     <div class="navmenu">
- <?php   wp_nav_menu(array('theme_location' => 'primary')) ;?>
+ <?php      
+        wp_nav_menu(array(
+            'theme_location' => 'primary',
+            'link_before' => '<span class="link-class">',
+            'link_after' => '</span>'
+        ));
+        ?>
 
 </div>
 </div>

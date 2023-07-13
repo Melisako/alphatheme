@@ -1,6 +1,6 @@
 <?php include(__DIR__ . '/sections/author.php'); ?>
 <footer>
-        <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-angle-up"></button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class="fa fa-angle-up button"></button>
         <script>
                 let mybutton = document.getElementById("myBtn");
 
