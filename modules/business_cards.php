@@ -33,7 +33,7 @@
                                   <?php echo implode(' ', array_slice(explode(' ', $biznesi_text), 0, 5)) . "\n"; ?>
                                   ...
                               </p>
-                              <button><a href="<?php echo $biznesi_permalink; ?>">View Business</a></button>
+                              <button class="button-btn"><a href="<?php echo $biznesi_permalink; ?>">View Business</a></button>
                           </div>
                           <?php
                       }
