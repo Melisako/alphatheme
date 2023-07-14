@@ -31,7 +31,7 @@ $bg-color: #FDFEFD;
 }
 
 
-.menu-main-navigation-container .menu {
+.menu-primary-nav-menu .menu{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
   text-align: center;
@@ -43,7 +43,7 @@ $bg-color: #FDFEFD;
 
 // 
 
-.menu-main-navigation-container .menu li:last-child {
+.menu-primary-nav-menu .menu li:last-child {
   position: absolute;
  right: 0;
   top: 0;
