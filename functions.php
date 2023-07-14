@@ -26,7 +26,7 @@ if (file_exists(get_stylesheet_directory() . '/acf-export/acf-bussines.php')) {
     include_once(get_stylesheet_directory() . '/acf-export/acf-bussines.php');
 }
 
-
+add_theme_support( 'post-thumbnails' );
 
 add_action('init', 'my_remove_editor_from_post_type');
 
