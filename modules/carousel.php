@@ -37,3 +37,10 @@ $(document).ready(function(){
   });
 });
 </script>
+
+
+<!-- Pjesa e search page  -->
+<div class="container">
+  <?php get_search_form(); ?>
+</div>
+

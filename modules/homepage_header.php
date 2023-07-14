@@ -25,17 +25,18 @@ if (get_row_layout() === 'homepage_header') {
 </div>
     </div>
 
-   
-    
 
-<div class="div">   
-    <div class="input-container">
-        <input type="text" name="custom-input" class="long">
-        <input type="text" name="custom-input" >
-        <input type="text" name="custom-input" >
-        </div>
 
+    <div class="div">
+        <div class="input-container">
+            <form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+                <input type="search" class="form-control" placeholder="Search" value="<?php echo get_search_query() ?>" name="s" title="Search" />
+            </form>
+                <!-- <input type="text" name="custom-input">
+                <input type="text" name="custom-input"> -->
+    </div>
 </div>
+
 </div>
 </div>
 </div>
