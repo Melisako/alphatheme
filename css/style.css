@@ -680,26 +680,16 @@ footer .footer-paragraf {
   align-items: center;
 }
 
-.div {
+.input-container input[type=search] {
   display: flex;
-}
-
-.input-container {
-  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
 }
 
 .input-container form,
 .input-container input {
-  height: 45px;
-  margin-right: 15px;
   margin-top: 10px;
-  border-radius: 20px;
   position: relative;
-  width: 800px;
-}
-
-.input-container .long {
-  width: 360px !important;
 }
 
 .title .p {
@@ -1209,17 +1199,11 @@ input[type=search]:focus {
 }
 
 .image-search img {
-  width: 100px !important;
-  height: 100px !important;
+  padding: 15px;
+  width: 80px !important;
+  height: 80px !important;
   object-fit: cover;
-  border-radius: 50%;
-}
-
-.second {
-  display: flex;
-  flex-direction: column;
-  padding-left: 25px;
-  margin: 0px;
+  border-radius: 45%;
 }
 
 .clearfix {
