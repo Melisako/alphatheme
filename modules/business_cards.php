@@ -25,12 +25,12 @@
                               <div class="bussiness__card--headlines">
                                   <h3 class="bussiness__card--title"><?php echo $biznesi_title; ?></h3>
                                   <div class="bussiness__card--stars">
-                                      <i class="fa-solid fa-star"></i>
-                                      <?php echo $biznesi_reviews; ?>/<?php echo $biznesi_reviews; ?>
+                                      <i class="fa-solid fa-star bussines-font"></i>
+                                      <?php echo $biznesi_reviews; ?>/<?php echo 5 ?>
                                   </div>
                               </div>
                               <p class="bussiness__card--description">
-                                  <?php echo implode(' ', array_slice(explode(' ', $biznesi_text), 0, 5)) . "\n"; ?>
+                                  <?php echo implode(' ', array_slice(explode(' ', $biznesi_text), 0, 10)) . "\n"; ?>
                                   ...
                               </p>
                               <button class="button-btn"><a href="<?php echo $biznesi_permalink; ?>">View Business</a></button>

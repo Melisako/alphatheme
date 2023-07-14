@@ -35,6 +35,7 @@
   font-size: 19px;
   font-weight: 700;
   line-height: 27px;
+  cursor: pointer;
 }
 
 .answer {
@@ -270,11 +271,17 @@ footer .footer-paragraf {
   border-radius: 20px;
 }
 
+.content-profile {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .bussines_profile .emri_reviews {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 3px;
 }
 
 .bussines-reviews p {
@@ -282,14 +289,11 @@ footer .footer-paragraf {
 }
 
 .fa-star {
-  color: gold;
   font-size: 18px;
 }
 
 .text-bussines {
   text-align: justify;
-  width: 90%;
-  margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 1px;
   color: black;
@@ -308,12 +312,10 @@ footer .footer-paragraf {
   text-align: left;
 }
 
-.contact {
+.contact-bussines {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 0 auto;
   padding-bottom: 20px;
   margin-top: 20px;
 }
@@ -322,10 +324,6 @@ footer .footer-paragraf {
 .right-info {
   display: flex;
   align-items: center;
-}
-
-span {
-  margin-left: 5px;
 }
 
 .comment-form {
@@ -406,6 +404,10 @@ span {
   display: none;
 }
 
+#reply-title {
+  margin-left: 25px;
+}
+
 #comment {
   border-radius: 10px;
   background-color: #e8e8e8;
@@ -415,6 +417,7 @@ span {
   max-width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .form-submit .submit {
@@ -1045,6 +1048,11 @@ body {
   margin: 30px 0;
 }
 
+.bussines-font {
+  color: gold !important;
+  font-size: 18px;
+}
+
 .bussiness__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1063,6 +1071,10 @@ body {
   max-height: 256px;
   overflow: hidden;
   border-radius: 16px;
+}
+
+.bussines__card--image img {
+  width: 100%;
 }
 
 .bussiness__card--headlines {

@@ -17,20 +17,29 @@ if ($fotot) : ?>
 <?php endif; ?>
 
 <div class="bussines-content">
+    <div class="content-profile">
 <div class="emri_reviews">
     <div class="bussines-emri">
 <h2> <?php the_field('emri'); ?> </h2>
 </div>
 <div class="bussines-reviews">
     <p> Reviews: </p>
-    <?php 
-    $reviews = get_field('reviews');
-    if ($reviews) {
-        for ($i = 0; $i < $reviews; $i++) {
-            echo  '<i class="fa-solid fa-star"></i>';
-        }
+ 
+
+<?php
+$reviews = get_field('reviews');
+if ($reviews) {
+    $max = $reviews;
+    $silver = 5 - $max; 
+    for ($i = 0; $i < $max; $i++) {
+        echo '<i class="fa-solid fa-star" style="color: gold;"></i>';
     }
-    ?>
+
+    for ($i = 0; $i < $silver; $i++) {
+        echo '<i class="fa-solid fa-star" style="color: gray;"></i>';
+    }
+}
+?>
 </div>
 </div>
 <div class="text-bussines">
@@ -38,7 +47,7 @@ if ($fotot) : ?>
 </div>
 
 
-<div class="contact">
+<div class="contact-bussines">
     <div class="left-info">
       
         <h4>Email : </h4>   <span>   <?php the_field('email'); ?></span>
@@ -48,6 +57,7 @@ if ($fotot) : ?>
         <h4>Tel:  </h4> <span><?php the_field('telefoni'); ?></span>
     </div>
   
+</div>
 </div>
 </div>
 </div>

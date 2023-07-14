@@ -178,7 +178,7 @@ acf_add_local_field_group(array(
 				'layout_64a7ea0c21d9f' => array(
 					'key' => 'layout_64a7ea0c21d9f',
 					'name' => 'cta_section',
-					'label' => 'cta_section',
+					'label' => 'CTA',
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
