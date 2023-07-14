@@ -25,12 +25,11 @@ if (get_row_layout() === 'homepage_header') {
 </div>
     </div>
 
-   
-    
+
 
 <div class="div">   
     <div class="input-container">
-        <input type="text" name="custom-input" class="long">
+        <input type="text" name="custom-input" <?php get_search_form(); ?> class="long">
         <input type="text" name="custom-input" >
         <input type="text" name="custom-input" >
         </div>

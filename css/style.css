@@ -1169,6 +1169,55 @@ body {
   text-align: center;
 }
 
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type=search] {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  width: 300px;
+}
+
+input[type=search]::placeholder {
+  color: #999;
+}
+
+input[type=search]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-search img {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin: 0px;
+}
+
+.clearfix {
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+}
+
 html,
 body {
   margin: 0;
