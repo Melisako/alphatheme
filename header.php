@@ -9,6 +9,7 @@
 </head>
 <body <?php body_class() ?> >
 <section class="header">
+    
 <div class="container">
 <div class="img">
 <img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>"  class="left">
@@ -25,3 +26,5 @@
 </div>
 </div>
 </section>
+
+
