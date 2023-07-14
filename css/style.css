@@ -677,23 +677,22 @@ span {
   align-items: center;
 }
 
-.input-container input[type=text] {
-  background-color: white;
-  border: none;
-  height: 25px;
-  margin-right: 15px;
-  padding: 10px;
-  margin-top: 50px;
-  color: #fff;
-  border-radius: 10px;
-  position: relative;
-  z-index: 1;
-  width: 220px;
+.div {
+  display: flex;
 }
 
-.div {
-  margin-right: 170px;
-  margin-top: -30px;
+.input-container {
+  display: flex;
+}
+
+.input-container form,
+.input-container input {
+  height: 45px;
+  margin-right: 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  position: relative;
+  width: 800px;
 }
 
 .input-container .long {
