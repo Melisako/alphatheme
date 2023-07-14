@@ -11,7 +11,9 @@
 <section class="header">
 <div class="container">
 <div class="img">
-<img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>"  class="left">
+    <a href="<?php echo get_home_url(); ?>">
+        <img src="<?php echo get_stylesheet_directory_uri() . '/img/foto1.svg'; ?>" class="left">
+    </a>
 </div>
     <div class="navmenu">
  <?php      

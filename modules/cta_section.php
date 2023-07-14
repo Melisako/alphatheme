@@ -15,10 +15,9 @@ if ($relation_items) {
         $biznesi_permalink = get_permalink($biznesi_id);
 
 
-        if ($biznesi_images) {
-            $biznesi_image_url = $biznesi_images[0];
-            $biznesi_image = wp_get_attachment_image($biznesi_images[0]['ID'], 'thumbnail');
-        }
+    
+            $biznesi_image = get_the_post_thumbnail($biznesi_id, 'thumbnail');
+        
     }
 }
 }

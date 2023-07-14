@@ -7,14 +7,11 @@
 <div class="profile">
 <div class="container">
 <div class="bussines_profile">
-<?php $fotot = get_field('foto'); 
-if ($fotot) : ?>
-    <?php foreach ($fotot as $foto) : ?>
-        <div class="foto">
-            <img src="<?php echo $foto['url']; ?>" alt="<?php echo $foto['alt']; ?>" class="foto">
-        </div>
-    <?php endforeach; ?>
-<?php endif; ?>
+
+<?php if( has_post_thumbnail() ): ?>
+		<?php endif; ?>
+			<div class="foto">
+			<?php the_post_thumbnail('thumbnail'); ?></div>
 
 <div class="bussines-content">
     <div class="content-profile">
