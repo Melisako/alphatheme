@@ -1,72 +1,72 @@
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-  
-    .testimonial-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  
-      .testimonial {
-        width: calc(33.33% - 20px); 
-        margin-bottom: 30px;
-        margin-right: 20px;
-  
-        &:nth-child(3n) {
-          margin-right: 0;
+  max-width: 960px;
+  margin: 0 auto;
+
+  .testimonial-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .testimonial {
+      width: calc(33.33% - 20px); 
+      margin-bottom: 30px;
+      margin-right: 20px;
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+
+    .card {
+      width: 250px; 
+      height: 300px; 
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+
+      .user-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+
+        img {
+          border-radius: 50%;
+          width: 60px; 
+          height: 60px; 
+          object-fit: cover;
         }
       }
-  
-      .card {
-        width: 250px; 
-        height: 300px; 
-        border-radius: 16px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        padding: 20px;
-  
-        .user-image {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+
+      .user-content {
+        margin-top: 20px;
+        text-align: center;
+
+        h5 {
+          font-size: 16px; 
           margin-bottom: 5px;
-  
-          img {
-            border-radius: 50%;
-            width: 60px; 
-            height: 60px; 
-            object-fit: cover;
-          }
         }
-  
-        .user-content {
-          margin-top: 20px;
-          text-align: center;
-  
-          h5 {
-            font-size: 16px; 
-            margin-bottom: 5px;
-          }
-  
-          span {
-            font-size: 12px; 
-            color: #999;
-          }
-  
-          p {
-            margin-top: 10px;
-          }
+
+        span {
+          font-size: 12px; 
+          color: #999;
         }
-  
-        .ratings {
-          margin-top: 20px;
-          color: gold;
-          display: flex;
-          justify-content: center;
-  
-          i {
-            font-size: 16px; 
-          }
+
+        p {
+          margin-top: 10px;
+        }
+      }
+
+      .ratings {
+        margin-top: 20px;
+        color: gold;
+        display: flex;
+        justify-content: center;
+
+        i {
+          font-size: 16px; 
         }
       }
     }
   }
+}
