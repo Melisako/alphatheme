@@ -8,63 +8,73 @@
     justify-content: center;
 
     .testimonial {
-      width: calc(33.33% - 20px); 
-      margin-bottom: 30px;
-      margin-right: 20px;
+      &.mytestimonialscards {
+        width: calc(33.33% - 20px);
+        margin-bottom: 30px;
+        margin-right: 20px;
 
-      &:nth-child(3n) {
-        margin-right: 0;
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
       }
     }
 
     .card {
-      width: 250px; 
-      height: 300px; 
-      border-radius: 16px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      padding: 20px;
+      &.mytestimonialscards {
+        width: 250px;
+        height: 300px;
+        border-radius: 16px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
 
-      .user-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15px;
+        .user-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 15px;
 
-        img {
-          border-radius: 50%;
-          width: 60px; 
-          height: 60px; 
-          object-fit: cover;
-        }
-      }
-
-      .user-content {
-        margin-top: 20px;
-        text-align: center;
-
-        h5 {
-          font-size: 16px; 
-          margin-bottom: 5px;
+          img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+          }
         }
 
-        span {
-          font-size: 12px; 
-          color: #999;
+        .user-content {
+          margin-top: 20px;
+          text-align: center;
+
+          h5 {
+            &.mytestimonialscards { 
+              font-size: 16px;
+              margin-bottom: 5px;
+            }
+          }
+
+          span {
+            &.mytestimonialscards { 
+              font-size: 12px;
+              color: #999;
+            }
+          }
+
+          p {
+            &.mytestimonialscards { 
+              margin-top: 10px;
+            }
+          }
         }
 
-        p {
-          margin-top: 10px;
-        }
-      }
+        .ratings {
+          margin-top: 20px;
+          color: gold;
+          display: flex;
+          justify-content: center;
 
-      .ratings {
-        margin-top: 20px;
-        color: gold;
-        display: flex;
-        justify-content: center;
-
-        i {
-          font-size: 16px; 
+          i {
+            font-size: 16px;
+          }
         }
       }
     }
