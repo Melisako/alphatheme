@@ -71,10 +71,6 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 
 add_action('init', 'my_remove_editor_from_post_type');
 
-function my_remove_editor_from_post_type() {
-remove_post_type_support( 'post', 'editor' );
-remove_post_type_support( 'page', 'editor' );
-}
 
 
 
@@ -84,30 +80,6 @@ remove_post_type_support( 'page', 'editor' );
 
 
 
-function post_type() {
-    $etiketa = array(
-        'name' => 'Businesses',
-        'singular_name' => 'Businesses',
-        'menu_name' => 'Businesses',
-    );
-
-    $args = array(
-        'labels' => $etiketa,
-        'public' => true,
-        'has_archive' => true,
-        'menu_position' => 5,
-        'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields','comments' ),
-        'capability_type' => 'post', 
-    );
-
-    register_post_type( 'bussines_post', $args );
-}
-add_action( 'init', 'post_type' );
-
-function enqueue_custom_scripts() {
-
-}
-add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 
 
 
