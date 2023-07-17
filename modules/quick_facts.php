@@ -16,9 +16,19 @@
     <div class="co">
       <div class="title-quick"><span class="thumb-up">&#128077;</span>
 
-<?php echo $column['title']; ?></div>
-      <div class="link"><a href="<?php echo $column['link']; ?>"><?php echo $column['link']; ?></a></div>
-      <p class="para"><?php echo $column['content']; ?></p>
+      <?php echo $column['title']; ?>
+      
+    </div>
+      <div class="link">
+      
+      <a href="<?php echo $column['link']; ?>"><?php echo $column['link']; ?>
+
+      </a></div>
+      <p class="para">
+       
+      <?php echo $column['content']; ?>
+
+      </p>
     </div>
     <?php endforeach; ?>
   </div>

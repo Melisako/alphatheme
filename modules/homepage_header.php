@@ -1,19 +1,18 @@
 
-<!-- Include the header -->
 <?php
 get_header();
 ?>
 
 <?php
-$image = null; // Initialize the $image variable
-$title = null; // Initialize the $title variable
+$image = null; 
+$title = null; 
 
 if (have_rows('col')) {
     while (have_rows('col')) {
         the_row();
         $image = get_sub_field('image');
         $title = get_sub_field('title');
-        break; // Exit the loop after getting the first image and title
+        break; 
     }
 }
 ?>
