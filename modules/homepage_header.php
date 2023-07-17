@@ -1,31 +1,26 @@
 
 <?php
-$image = null; 
-$title = null; 
-
+get_header();
+?>
 
 <?php
 $image = null; 
 $title = null; 
 
-if (get_row_layout() === 'homepage_header') {
-
-
+if (have_rows('col')) {
+    while (have_rows('col')) {
+        the_row();
         $image = get_sub_field('image');
         $title = get_sub_field('title');
-
         break; 
-
-
     }
-
+}
 ?>
 
 <div class="container-image" style="background-image: url('<?php echo $image['url']; ?>'); ">
 
 
     <div class="overlay"></div>
-    <div class="container">
     <div class="all">
     
     <div class="title">
@@ -35,19 +30,22 @@ if (get_row_layout() === 'homepage_header') {
 </div>
     </div>
 
+   
+    
 
+<div class="div">   
+    <div class="input-container">
+        <input type="text" name="custom-input" class="long">
+        <input type="text" name="custom-input" >
+        <input type="text" name="custom-input" >
 
-    <div class="div">
-        <div class="input-container">
-            <form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
-                <input type="search" class="form-control" placeholder="Search" value="<?php echo get_search_query() ?>" name="s" title="Search" />
-            </form>
-                
-    </div>
+        </div>
+      
+</div>
+</div>
 </div>
 
-</div>
-</div>
-</div>
 
+
+<?php get_footer();?>
 

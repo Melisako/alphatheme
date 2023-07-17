@@ -1,79 +1,143 @@
+$brand-colour-emerald-500-main: #54D577;
+$kit-colors-slate-900: #0F172A;
+$container-max-width: 600px;
+$container-margin: 80px auto;
+$container-padding: 23px;
+$container-background: #f5f5f5;
+$container-border-radius: 10px;
+$container-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+$form-group-margin-bottom: 20px;
+
+$h1-font-size: 48px;
+$h1-font-weight: bold;
+$h1-color: #2a2a2a;
+$h1-text-align: center;
+$h1-text-transform: uppercase;
+$h1-letter-spacing: 2px;
+$h1-margin-bottom: 20px;
+$h1-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+$label-display: block;
+$label-margin-bottom: 5px;
+$label-color: $kit-colors-slate-900;
+$label-font-size: 20px;
+$label-font-family: Inter;
+$label-font-style: normal;
+$label-font-weight: 400;
+$label-line-height: 24px;
+
+$input-width: 97%;
+$input-padding: 10px;
+$input-border: 1px solid #ccc;
+$input-border-radius: 4px;
+$input-transition: border-color 0.3s ease;
+
+$input-hover-border-color: #54D350;
+$input-hover-box-shadow: 0 0 8px rgba(84, 213, 80, 0.3);
+
+$submit-button-display: flex;
+$submit-button-border-radius: 16px;
+$submit-button-border: none;
+$submit-button-background: $brand-colour-emerald-500-main;
+$submit-button-width: 256px;
+$submit-button-padding: 10px 16px;
+$submit-button-justify-content: center;
+$submit-button-align-items: center;
+$submit-button-gap: 8px;
+$submit-button-color: $kit-colors-slate-900;
+$submit-button-font-size: 14px;
+$submit-button-font-family: Inter;
+$submit-button-font-style: normal;
+$submit-button-font-weight: 700;
+$submit-button-line-height: 21px;
+$submit-button-transition: background-color 0.3s ease;
+
+$submit-button-hover-background-color: #54D350;
+$submit-button-hover-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+$submit-button-hover-transform: scale(1.05);
+$submit-button-hover-transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+
+$submit-button-focus-outline: none;
+
 .contact-container {
-  max-width: 600px;
-  margin: 80px auto;
-  padding: 23px;
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-}
-
-.contact-container .form-group {
-  margin-bottom: 20px;
-}
-
-.contact-container h1 {
-  color: #000;
-  font-size: 32px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  line-height: 27px;
-}
-
-.contact-container label {
-  display: block;
-  margin-bottom: 5px;
-  color: #0F172A;
-  font-size: 20px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.contact-container input[type="text"],
-.contact-container input[type="email"],
-.contact-container textarea {
-  width: 97%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  transition: border-color 0.3s ease;
-}
-
-.contact-container input[type="text"]:hover,
-.contact-container input[type="email"]:hover,
-.contact-container textarea:hover {
-  border-color: #54D350;
-  box-shadow: 0 0 8px rgba(84, 213, 80, 0.3);
-}
-
-.contact-container #contact-form input[type="submit"] {
-  display: flex;
-  border-radius: 16px;
-  border: none;
-  background: #54D577;
-  width: 256px;
-  padding: 10px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  color: #0F172A;
-  font-size: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  transition: background-color 0.3s ease;
-}
-
-.contact-container #contact-form input[type="submit"]:hover {
-  background-color: #54D350;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.contact-container #contact-form input[type="submit"]:focus {
-  outline: none;
+  max-width: $container-max-width;
+  margin: $container-margin;
+  padding: $container-padding;
+  background-color: $container-background;
+  border-radius: $container-border-radius;
+  box-shadow: $container-box-shadow;
+  
+  .form-group {
+    margin-bottom: $form-group-margin-bottom;
+  }
+  
+  h1 {
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    color: $h1-color;
+    text-align: $h1-text-align;
+    text-transform: $h1-text-transform;
+    letter-spacing: $h1-letter-spacing;
+    margin-bottom: $h1-margin-bottom;
+    text-shadow: $h1-text-shadow;
+  }
+  
+  label {
+    display: $label-display;
+    margin-bottom: $label-margin-bottom;
+    color: $label-color;
+    font-size: $label-font-size;
+    font-family: $label-font-family;
+    font-style: $label-font-style;
+    font-weight: $label-font-weight;
+    line-height: $label-line-height;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: $input-width;
+    padding: $input-padding;
+    border: $input-border;
+    border-radius: $input-border-radius;
+    transition: $input-transition;
+    
+    &:hover {
+      border-color: $input-hover-border-color;
+      box-shadow: $input-hover-box-shadow;
+    }
+  }
+  
+  #contact-form input[type="submit"] {
+    display: $submit-button-display;
+    border-radius: $submit-button-border-radius;
+    border: $submit-button-border;
+    background: $submit-button-background;
+    width: $submit-button-width;
+    padding: $submit-button-padding;
+    justify-content: $submit-button-justify-content;
+    align-items: $submit-button-align-items;
+    gap: $submit-button-gap;
+    color: $submit-button-color;
+    font-size: $submit-button-font-size;
+    font-family: $submit-button-font-family;
+    font-style: $submit-button-font-style;
+    font-weight: $submit-button-font-weight;
+    line-height: $submit-button-line-height;
+    transition: $submit-button-transition;
+    
+    &:hover {
+      background-color: $submit-button-hover-background-color;
+      box-shadow: $submit-button-hover-box-shadow;
+      transform: $submit-button-hover-transform;
+      transition: $submit-button-hover-transition;
+    }
+    
+    &:focus {
+      outline: $submit-button-focus-outline;
+    }
+  }
+  
+  
 }
