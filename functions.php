@@ -28,7 +28,7 @@ if (file_exists(get_stylesheet_directory() . '/acf-export/acf-bussines.php')) {
 
 
 
-add_action('init', 'my_remove_editor_from_post_type');
+
 
 
 

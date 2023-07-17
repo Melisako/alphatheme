@@ -40,8 +40,12 @@ if ($blog_posts->have_posts()) :
                 <?php if ($imag) : ?>
                     <img src="<?php echo $imag['url']; ?>" alt="<?php echo $imag['alt']; ?>" class="imag">
                 <?php endif; ?>
-                <h1><?php echo $biznesi_title; ?></h1>
-                <div class="textare">  <?php echo $biznesi_text; ?></div>
+                <h1><?php the_title(); ?></h1>
+
+<?php $biznesi_text = get_field('informata'); ?>
+<?php if ($biznesi_text) : ?>
+    <div class="textare"><?php echo esc_html($biznesi_text); ?></div>
+<?php endif; ?>
                <a href="<?php echo $biznesi_permalink; ?>" class="permalink-bus">Visit Business</a>
             </div>
             <?php
