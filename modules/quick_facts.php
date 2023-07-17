@@ -2,9 +2,9 @@
   <h1 class="quick-h1">QUICK FACTS</h1>
 
   <div class="quick-cont">
-    <?php if (have_rows('quick_facts')) : ?>
-      <?php while (have_rows('quick_facts')) : the_row(); ?>
-        <?php $colum = get_sub_field('colum'); ?>
+   
+  <?php if(get_row_layout() == 'quick_fatcs'):
+         $colum = get_sub_field('colum'); ?>
         <?php if (is_array($colum) || is_object($colum)) : ?>
           <div class="quick-section">
             <?php foreach ($colum as $column) : ?>
@@ -18,10 +18,10 @@
             <?php endforeach; ?>
           </div>
         <?php endif; ?>
-      <?php endwhile; ?>
-    <?php endif; ?>
+     
+   
   </div>
-
+<?php endif;?>
 </div>
 
 <!-- Include the footer -->
