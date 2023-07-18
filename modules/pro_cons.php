@@ -1,7 +1,6 @@
-
-<div class="pro-section">
+<h1 class="h1">PROS & CONS </h1>
   <div class="container">
-<h1>PROS & CONS </h1>
+  
     <table>
       <tr>
         <td>
@@ -18,18 +17,10 @@
                     
                     <?php foreach ($columns_copy as $column) : ?>
                       <div class="column">
-
                         <p>
                           <?php echo $column['content']; ?></p>
 
-
-                        <div class="pro-content">
-                        <p><?php echo $column['content']; ?></p>
-                    </div>
-                    <div class="pro-font">
-
                         <i class="fas fa-thumbs-up"></i>
-                    </div>
                       </div>
                     <?php endforeach; ?>
                   </div>
@@ -52,12 +43,8 @@
                   <div class="columns-section">
                     <?php foreach ($columns_cons as $column) : ?>
                       <div class="column">
-                        <div class="pro-content">
                         <p><?php echo $column['contenti']; ?></p>
-                    </div>
-                    <div class="pro-font">
                         <i class="fas fa-thumbs-down"></i>
-                    </div>
                       </div>
                     <?php endforeach; ?>
                   </div>
@@ -70,7 +57,6 @@
       </tr>
     </table>
   </div>
-                    </div>
 
 
 <!-- Include the Font Awesome library -->

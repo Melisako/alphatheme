@@ -17,9 +17,7 @@ endif;
         <div class="gallerycarousel">
             <?php foreach ($image as $image_item) : ?>
                 <div class="gallerycarousel1">
-                <a href="<?php echo $image_item; ?>" target="_blank">
-                     <img src="<?php echo $image_item; ?>" alt="Image Gallery">
-                </a>
+                    <img src="<?php echo $image_item; ?>" alt="image">
                 </div>
             <?php endforeach; ?>
         </div>
@@ -39,5 +37,3 @@ $(document).ready(function(){
   });
 });
 </script>
-
-

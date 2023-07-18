@@ -19,46 +19,46 @@ acf_add_local_field_group(array(
             ),
             // prej qitu keni me shtu layouts (module)
           
-				'layout_64b4f537351fb' => array(
-                    'key' => 'layout_64b4f537351fb',
-                    'name' => 'toplist_section',
-                    'label' => 'toplist_section',
-                    'display' => 'block',
-                    'sub_fields' => array(
-                        array(
-                            'key' => 'field_64b4f53889a5a',
-                            'label' => 'toplist_items',
-                            'name' => 'toplist_items',
-                            'type' => 'relationship',
-                            'instructions' => '',
-                            'required' => 0,
-                            'conditional_logic' => 0,
-                            'wrapper' => array(
-                                'width' => '',
-                                'class' => '',
-                                'id' => '',
-                            ),
-                            'post_type' => array(
-                                0 => 'bussines_post',
-                            ),
-                            'taxonomy' => '',
-                            'filters' => array(
-                                0 => 'search',
-                                1 => 'post_type',
-                                2 => 'taxonomy',
-                            ),
-                            'elements' => array(
-                                0 => 'featured_image',
-                            ),
-                            'min' => '',
-                            'max' => '4',
-                            'return_format' => 'object',
-                        ),
-                    ),
-                    'min' => '',
-                    'max' => '',
-                ),
 
+			'layout_64b4f537351fb' => array(
+				'key' => 'layout_64b4f537351fb',
+				'name' => 'toplist_section',
+				'label' => 'toplist_section',
+				'display' => 'block',
+				'sub_fields' => array(
+					array(
+						'key' => 'field_64b4f53889a5a',
+						'label' => 'toplist_items',
+						'name' => 'toplist_items',
+						'type' => 'relationship',
+						'instructions' => '',
+						'required' => 0,
+						'conditional_logic' => 0,
+						'wrapper' => array(
+							'width' => '',
+							'class' => '',
+							'id' => '',
+						),
+						'post_type' => array(
+							0 => 'bussines_post',
+						),
+						'taxonomy' => '',
+						'filters' => array(
+							0 => 'search',
+							1 => 'post_type',
+							2 => 'taxonomy',
+						),
+						'elements' => array(
+							0 => 'featured_image',
+						),
+						'min' => '',
+						'max' => '4',
+						'return_format' => 'object',
+					),
+				),
+				'min' => '',
+				'max' => '',
+			),
 			'layouts' => array(
 				'layout_64937496af6bc' => array(
 					'key' => 'layout_64937496af6bc',
