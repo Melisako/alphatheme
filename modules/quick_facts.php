@@ -1,3 +1,4 @@
+
 <div class="container">
   <h1 class="quick-h1">QUICK FACTS</h1>
 
@@ -18,11 +19,4 @@
             <?php endforeach; ?>
           </div>
         <?php endif; ?>
-     
-   
-  </div>
-<?php endif;?>
-</div>
 
-<!-- Include the footer -->
-<?php get_footer(); ?>
